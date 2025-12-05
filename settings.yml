@@ -1,0 +1,62 @@
+# Landscape2 settings
+#
+# This settings file allows customizing some aspects of the landscape.
+#
+# Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/settings.yml
+
+
+foundation: DDI Alliance
+
+url: https://ddi-alliance.org/tools
+
+colors:
+  color1: "rgba(0, 51, 102, 1)"      # DDI blue
+  color2: "rgba(0, 153, 204, 1)"     # DDI accent blue
+  color3: "rgba(255, 255, 255, 1)"   # White
+  color4: "rgba(0, 0, 0, 0.7)"       # Black overlay
+  color5: "rgba(204, 204, 204, 1)"   # Light grey
+  color6: "rgba(0, 51, 102, 0.7)"    # DDI blue overlay
+  color7: "rgba(0, 153, 204, 0.7)"   # DDI accent overlay
+
+description: |
+  The DDI Alliance Tools Landscape provides a comprehensive, interactive catalogue of tools, editors, converters, and resources for the Data Documentation Initiative (DDI) community. Explore, compare, and discover solutions for metadata, survey design, data protection, and more.
+
+footer:
+  links:
+    homepage: "https://ddialliance.org"
+    github: "https://github.com/ddialliance"
+    twitter: "https://twitter.com/DDIAlliance"
+  logo: logos/ddi-logo.png
+
+grid_items_size: large
+
+groups:
+  - name: Editors & Designers
+    categories:
+      - Editors
+      - Questionnaire Designers
+
+  - name: Data Conversion & Transformation
+    categories:
+      - Converters & Transformation
+
+  - name: Data Cataloguing & Discovery
+    categories:
+      - Index/Search
+
+  - name: Data Protection & Resolution
+    categories:
+      - Protection
+      - Resolution
+
+  - name: Collections & Utilities
+    categories:
+      - Other/Collection
+
+header:
+  links:
+    homepage: "https://ddialliance.org"
+    github: "https://github.com/ddialliance"
+  logo: logos/ddi-logo.png
+
+screenshot_width: 1500

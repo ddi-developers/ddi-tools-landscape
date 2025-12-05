@@ -1,0 +1,249 @@
+# Landscape2 guide
+#
+# This file allows defining the content of the landscape guide.
+#
+# Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/guide.yml
+
+categories:
+  - category: "Editors — Questionnaire Editors"
+    content: |
+      Tools focused on authoring and editing questionnaire metadata, typically in DDI-Lifecycle.
+      These applications help teams document routing, mappings, question–variable relationships, and
+      export DDI-compliant artifacts for reuse across the DDI ecosystem.
+
+    subcategories:
+      - subcategory: "Archivist"
+        content: |
+          Archivist is an easy to use editor that allows documentation of questionnaires including routing
+          and data and mapping between questions and variables. It exports in DDI-Lifecycle for use in
+          other DDI-Lifecycle compliant tools.
+
+      - subcategory: "GESIS Questionnaire Editor (QEditor)"
+        content: |
+          The QEditor enables anybody to primarily create questionnaires, which are stored natively in
+          DDI LC 3.2. Upon creation of a questionnaire, these can be translated and finally exported to
+          DDI LC, Word/PDF reports, LimeSurvey files or empty SPSS files. QEditor is a collaborative tool,
+          so that PIs can jointly work on questionnaires. See also:
+          Klas, Claus-Peter, Hopt, Oliver, Krämer, Thomas, & Nugraha, Sigit. (2021, November 30).
+          From Documentation to Search for Questions for Small Service Provider in DDI. 13th Annual
+          European DDI User Conference (EDDI2021), virtual (Paris). Zenodo. https://doi.org/10.5281/zenodo.5743673
+
+  - category: "Editors — General Editors"
+    content: |
+      General-purpose DDI editors for describing studies, variables, and data structures. These tools
+      often support DDI 2.x (Codebook) and/or DDI 3.x (Lifecycle) authoring workflows.
+
+    subcategories:
+      - subcategory: "DDI 3.0 Editor-Lite"
+        content: |
+          An authoring tool produced by ICPSR that supports the production of DDI 3.0 Instances. It generates
+          DDI 3.0-XML markup providing basic study and variable-level descriptions of simple, survey-type datasets.
+
+      - subcategory: "DdiEditor"
+        content: |
+          The DdiEditor is the key tool in a framework of data processing tools and processes composing data
+          processing of survey datasets. The end product is data documentation in accordance with international
+          metadata standard of the collection of surveys.
+
+      - subcategory: "EpiData Software"
+        content: |
+          EpiData is a software package which allows data definitions, data documentation, data entry and analysis
+          based on the project principles in Dublin Core Elements and data documentation principles at project
+          and variable level as implemented in DDI standards. Including tools for double data verification and
+          quality assurance measures (restriction of values, labels, comparison of fields, structured jumps,
+          related data files). Encryption principles and user logging is an option. Version control is implemented
+          as an automatic counter and with appropriate date registration of changes in structure and data contents.
+          Backup procedures at project level ensures possibility to "roll back" to previous versions. Following
+          definition, entry and verification of data export can be made to a verified DDI‑3.1 XML structure. The
+          DDI export has been verified, funded by and implemented in collaboration with the Danish National Archives
+          (www.sa.dk).
+
+      - subcategory: "DDI with R"
+        content: |
+          ...A complete package to create, edit and validate a DDI Codebook version 2.6, using R script commands.
+
+  - category: "Questionnaire Designers — Visual Designers"
+    content: |
+      Visual tooling to design questionnaire specifications and generate outputs across multiple modes
+      (web, paper, interviewer). These tools frequently integrate with repositories or generators to
+      produce DDI, PDF, and runtime artifacts.
+
+    subcategories:
+      - subcategory: "Colectica Designer"
+        content: |
+          Colectica Designer is a visual DDI metadata editor and survey questionnaire designer. It interacts
+          with Colectica Repository to provide advanced data management functionality. Colectica Designer
+          complements existing systems by importing and generating various forms of data, documentation,
+          and source code.
+
+      - subcategory: "Colectica Questionnaires"
+        content: |
+          Colectica Questionnaires is a survey specification creator. Surveys designed with Colectica
+          Questionnaires can be published to multiple formats including pdf specifications, paper forms,
+          DDI, and Blaise source code. Colectica Questionnaires can also work with Colectica Repository
+          serving as a reusable question bank.
+
+      - subcategory: "Eno"
+        content: |
+          The French National Institute of Statistics and Economic Studies (Insee) has developed a metadata-driven survey data collection process including a questionnaire generator code-named Eno. This tool operates on a formal description of a questionnaire in DDI and executes a completely automated chain of transformations to produce the actual collection instrument(s) (web and paper forms, interviewer questionnaire) and their documentation. Eno is interfaced with a questionnaire design visual tool, code-named Pogues.
+
+      - subcategory: "Pogues"
+        content: |
+          Pogues is a questionnaire design visual tool that produces the DDI description of the questionnaire
+          which can then be submitted to an embedded instance of Eno. Using Pogues, survey managers and
+          questionnaire designers can specify their web, paper and interviewer questionnaires in a friendly
+          way and visualize the generated results in one click.
+
+  - category: "Questionnaire Designers — Spreadsheet Designers"
+    content: |
+      Spreadsheet-centric tools that embed and manage DDI metadata alongside tabular data, enabling
+      documentation and transformation directly from common office formats.
+
+    subcategories:
+      - subcategory: "Colectica for Excel"
+        content: |
+          Colectica for Microsoft Excel is a free tool to document your spreadsheet data using the open standard
+          for data documentation. Document Variables and Datasets: Colectica allows documenting of Variables,
+          Code Lists, and Data Sets directly from within Microsoft Excel. Metadata is Embedded: Colectica saves your
+          standards-based metadata directly in the Microsoft Excel file. If you email or share your file, the metadata
+          will still be attached. Publish Documentation: Colectica for Excel can generate documentation for your Variables,
+          Code Lists, and dataset in PDF, Word, HTML, and XSL-FO. Import Stata to Excel: Colectica for Excel allows direct
+          importing and documenting of Stata data files, with a file extension .dta. The variable names, labels and code lists
+          in the Stata file will also be imported and added to the stored documentation automatically. Import SPSS to Excel:
+          Colectica for Excel allows direct importing and documenting of SPSS data files, with a file extension .sav. The
+          variable names, labels and code lists in the SPSS file will also be imported and added to the stored documentation
+          automatically. Create DDI-Lifecycle Metadata: Export your data documentation to an XML file in the DDI metadata format,
+          the standard for data documentation. Open and edit it from Colectica Designer, Colectica Express, or other DDI applications.
+
+      - subcategory: "queXML"
+        content: |
+          queXML is a simple XML schema for designing questionnaires. Included are stylesheets to administer a questionnaire in
+          PDF (paper), CASES and LimeSurvey (was: phpSurveyor). queXML is compatible with the DDI standard for data description.
+
+  - category: "Questionnaire Designers — Web-based Designers"
+    content: |
+      Browser-based tools for designing and documenting questionnaire content, often used by cross-national or
+      institutional survey infrastructures.
+
+    subcategories:
+      - subcategory: "QDDT"
+        content: |
+          The Questionnaire Design and Development Tool – QDDT is an interactive and dynamic web-based tool.
+          QDDT was developed to assist researchers to document and retrieve information on the complex process
+          of designing thematic modules for a conceptual instrument (instrument independent of population or mode),
+          for example for a cross-national survey. The tool is open source, available online for download for all.
+          The purpose of the tool is to:
+          - Improve the efficiency of the questionnaire design process.
+          - Provide a means of managing the design process.
+          - Track the development of question items over different stages of pre-testing and review.
+          - Incorporate input from multiple stakeholders.
+          - Develop concepts and questions that form basis for generating the final field-ready questionnaire.
+          - Improve the transparency of the questionnaire design process.
+          - Facilitate knowledge transfer and reuse both within the same survey infrastructure across time and across different survey infrastructures.
+          - Serve as an archive of survey metadata, including the rationale behind questions, results from pre-testing as well as the final questions,
+            providing a complete and searchable record of the design process. Externally published content is accessible for all. Export to other tools.
+          Developed primarily with the European Social Survey in mind. However, it is anticipated that the tool will also be usable by other national
+          and cross-national surveys. This project has received funding from the European Union’s FP7 Infrastructures programme under grant agreement
+          No 283646 and the European Union’s Horizon 2020 research and innovation programme under grant agreement No 654221.
+
+  - category: "Converters & Transformation — DDI Converters"
+    content: |
+      Tools for converting datasets and metadata between DDI and other formats, supporting interoperability and migration across platforms.
+
+    subcategories:
+      - subcategory: "StatConverter"
+        content: |
+          A cross-platform software to convert from major statistical software datasets to DDI Codebook.
+
+      - subcategory: "DDI to DDL"
+        content: |
+          SDA provides an online DDI to DDL Conversion Service. You can upload DDI files from your computer to the conversion service's computer, choose various options, then download the resulting DDL file.
+
+      - subcategory: "XCONVERT"
+        content: |
+          A tool to convert SAS, SPSS, and Stata data definitions to DDI. The XCONVERT documentation also explains how to convert an SPSS system file into an ASCII data file and a matching DDI file.
+
+  - category: "Converters & Transformation — DDI Transformation"
+    content: |
+      Tools for transforming DDI metadata into other formats, such as HTML, RDF, or DataCite, using XSLT or similar technologies.
+
+    subcategories:
+      - subcategory: "DDI-XSLT"
+        content: |
+          A collection of xslt-stylesheets for DDI for transformation the metadata to other formats. Current XSLT in development: DDI 3.1 to XHTML, DDI 2.1 to RDF, DDI 3.1 to datacite (development version).
+
+      - subcategory: "DDI to HTML Stylesheet"
+        content: |
+          A tool to transform and format content of DDI documents as HTML pages.
+
+      - subcategory: "DDIProfileXSLT"
+        content: |
+          DDI31GenerateProfile.xslt and DDI32GenerateProfile.xslt create a DDI Profile template on the basis of an existing DDI instance. DDI31Profile2html.xslt and DDI32Profile2html.xslt render a DDI Profile in HTML.
+
+  - category: "Index/Search — Repositories & Search"
+    content: |
+      Repositories and search engines for DDI metadata, enabling indexing, discovery, and access to data documentation and survey content.
+
+    subcategories:
+      - subcategory: "Microdata Cataloging Tool (NADA)"
+        content: |
+          NADA is a web-based cataloging system that serves as a portal for researchers to browse, search, compare, apply for access, and download relevant census or survey information. It was originally developed to support the establishment of national survey data archives. The application is used by a diverse and growing number of national, regional, and international organizations. NADA, as with other IHSN tools, uses the Data Documentation Initiative (DDI), XML-based international metadata standard.
+
+      - subcategory: "CED2AR"
+        content: |
+          CED2AR (pronounced as cedar), or the Comprehensive Extensible Data Documentation and Access Repository, is a lightweight DDI 2.5 repository. The project is funded by the National Science Foundation (NSF), under grant #1131848 and developed by the Cornell Node of the NSF Census Research Network (NCRN).
+
+      - subcategory: "Colectica Portal"
+        content: |
+          Colectica Portal is a web application, powered by Colectica Repository, which enables data and metadata publication and discovery.
+
+      - subcategory: "Colectica Repository"
+        content: |
+          Colectica Repository is a centralized storage system for managing DDI data resources, enabling collaborative DDI-based workflows, and providing automatic version control.
+
+      - subcategory: "DDI Index"
+        content: |
+          DDI Index is a Java/Javascript application that provides indexing and searching of XML files created in DDI (Data Documentation Initiative) format. Searching and indexing is done using the Lucene search engine library. DDI Index was written by the Australian Social Science Data Archive in 2006 and is distributed under the Apache license.
+
+      - subcategory: "GESIS DDI Search"
+        content: |
+          The DDI Search enables search and browse for questions, variables and study documentation in multiple languages. It is based on an open source technology stack that integrates search, comparison and re-use of survey questions for social scientists. DDI Search demonstrates how institutions can set up a fully automated workflow to aggregate metadata, build a search index, offer a rich search user interface on the resulting question banks.
+
+  - category: "Protection — Data Protection"
+    content: |
+      Tools for anonymisation and protection of statistical data, supporting disclosure control and privacy for DDI-compliant datasets.
+
+    subcategories:
+      - subcategory: "DDI Data Description Statistics Protection Software"
+        content: |
+          It is a tool which enables easy anonymization processes of DDI standard univariate statistics. It was developed primarily to address the issue of statistical disclosure control for single variable aggregated data, publically distributed to particularly provide information to scientific researchers to promote detailed official statistics microdata use for scientific purposes. It enables quick and easy automatic data protection by performing data protection methods such as bracketing, top- and bottom-coding, variable (information) removal, numeric descriptive statistics protection and low frequency protection following the minimum frequency rule. In contrast to existing microdata and aggregated data anonymization tools, the developed software protects aggregated data directly in the XML code.
+
+  - category: "Resolution — Identifier Resolution"
+    content: |
+      Services and libraries for resolving DDI agency identifiers and related metadata, supporting interoperability and persistent referencing.
+
+    subcategories:
+      - subcategory: "Colectica Resolver"
+        content: |
+          Colectica DDI Resolver is a DNS-based resolution service for DDI3 agency identifiers and related metadata.
+
+      - subcategory: "Colectica Resolver Library"
+        content: |
+          The Colectica DDI Resolver Library makes it easy to integrate DNS-based data resolution functionality in your own applications. The Colectica DDI Resolver Library is available for .NET and Java.
+
+  - category: "Other/Collection — Tool Collections"
+    content: |
+      Collections of tools, utilities, and recommended elements for DDI, including bundles and reference implementations.
+
+    subcategories:
+      - subcategory: "DDI Tools Made Available by the SDA Project"
+        content: |
+          An online analysis system that provides tools to create DDI 2.
+
+      - subcategory: "DDI 3.0 Core"
+        content: |
+          Recommended elements, formerly DDI Lite.
+
+      - subcategory: "DDI DExT"
+        content: |
+          Tool to import data and DDI metadata from SPSS files with conversion to ASCII and re-export capabilities to SAS, Stata and SPSS. Please note: URL for web site is the direct download link. The DDI-DExT (Data Exchange Tools) is a collaborative project between the UK Data Archive and the Open Data Foundation for the development of data archiving and conversion tools. Supported by the UKDA Data Exchange Tools (DExT) initiative, the project aims at the development of open source utilities for the conversion of quantitative data into a standard archiving format and export to common statistical packages or database systems. The application is based on the DDI specification and supports metadata export to DDI 2.0 and DDI 3.0. This initial product is a proof of concept and focuses on SPSS as the input data format with data export capabilities to ASCII, SAS, Stata, and SPSS. The output of the DDI DExT project has been donated to the DDI Foundation Tools Program.

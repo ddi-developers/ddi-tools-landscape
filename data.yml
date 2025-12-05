@@ -1,0 +1,594 @@
+# Landscape2 data
+#
+# This file contains the data that will be used to generate the landscape.
+#
+# Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/data.yml
+
+categories:
+  - name: Editors
+    subcategories:
+      - name: Questionnaire Editors
+        items:
+          - name: Archivist
+            homepage_url: https://github.com/CLOSER-Cohorts/archivist
+            logo: archivist.png
+            description: Archivist is an easy to use editor that documents questionnaires, routing, and mappings; exports DDI-Lifecycle.
+            repo_url: https://github.com/CLOSER-Cohorts/archivist
+            license: "Open Source"
+            extra:
+              summary_tags: "DDI, Questionnaire, Editor, Open Source"
+              summary_use_case: "Questionnaire editor for documenting questionnaires, routing, and mapping between questions and variables. Exports in DDI-Lifecycle for use in other DDI-Lifecycle compliant tools."
+              summary_business_use_case: "Used by CLOSER for questionnaire documentation and metadata management."
+              summary_release_rate: "Version supported: 3.2"
+              summary_integrations: "Ruby on Rails, React; Win32"
+              summary_intro_url: "https://github.com/CLOSER-Cohorts/archivist"
+              summary_personas: "Survey methodologists, data managers, questionnaire designers"
+              annotations:
+                availability: "In production"
+                institution_name: "CLOSER"
+                institution_url: "https://www.closer.ac.uk"
+                authors: "Will Poynter, Charles DeBarros, Simon Reed"
+                contact_email: "closer@ucl.ac.uk"
+
+          - name: GESIS Questionnaire Editor (QEditor)
+            homepage_url: https://multiweb.gesis.org/qeditor/
+            logo: gesis-qeditor.svg
+            description: Enables creation of questionnaires stored natively in DDI LC 3.2, with export to DDI LC, Word/PDF, LimeSurvey, SPSS.
+            license: "Information not available"
+            extra:
+              summary_tags: "DDI, Questionnaire, Editor, GESIS"
+              summary_use_case: "Collaborative questionnaire creation and export in multiple formats."
+              summary_release_rate: "Version supported: 3.2"
+              summary_integrations: "Dockerized"
+              summary_personas: "Survey designers, researchers"
+              annotations:
+                availability: "Beta release"
+                institution_name: "GESIS - Leibniz institute for the social sciences"
+                authors: "Claus-Peter Klas, Sigit Nugraha, Oliver Hopt, Alexander Mühlbauer, Thomas Krämer"
+
+      - name: General Editors
+        items:
+          - name: DDI 3.0 Editor-Lite
+            homepage_url: http://www.ddialliance.org/hubfs/sites/default/files/ddi3/editor-lite-3/DDI_v2dot2.htm
+            logo: ddi3-editor-lite.svg
+            description: Authoring tool produced by ICPSR that supports the production of DDI 3.0 Instances.
+            license: "GNU Lesser General Public License (LGPL)"
+            extra:
+              summary_tags: "DDI, Editor, Open Source"
+              summary_use_case: "Generates DDI 3.0-XML markup for basic study and variable-level descriptions."
+              summary_release_rate: "Version supported: 3.0"
+              summary_integrations: "Java, AdobeFlex; Win32"
+              summary_personas: "Data managers, researchers"
+              annotations:
+                availability: "No longer developed, but still available"
+                institution_name: "ICPSR"
+                institution_url: "http://www.icpsr.umich.edu/"
+                authors: "Aalap Doshi, Sanda Ionescu"
+                contact_email: "sandai@umich.edu"
+                latest_version: "2.2"
+
+          - name: DdiEditor
+            homepage_url: http://code.google.com/p/ddieditor/
+            logo: ddieditor.svg
+            description: The DdiEditor is the key tool in a framework of data processing tools and processes composing data processing of survey datasets.
+            license: "GNU Lesser GPL"
+            extra:
+              summary_tags: "DDI, Editor, Open Source"
+              summary_use_case: "Data documentation in accordance with international metadata standard of the collection of surveys."
+              summary_release_rate: "Version supported: 3.1"
+              summary_integrations: "Java, XQuery, OSGi; Win32"
+              summary_personas: "Data managers, researchers"
+              annotations:
+                availability: "In production"
+                institution_name: "Danish Data Archive, Gesis"
+                institution_url: "http://www.dda.dk/"
+                authors: "Jannik Jensen, Dan Kristensen"
+                contact_email: "jvj@dda.dk"
+                latest_version: "1.8.0"
+                support: "Community-driven support"
+
+          - name: EpiData Software
+            homepage_url: http://www.epidata.dk/
+            logo: epidata.svg
+            description: Software package for data definitions, documentation, entry, and analysis based on DDI standards.
+            license: "Open Source / Other (see full license at https://www.epidata.dk/about.htm)"
+            extra:
+              summary_tags: "DDI, Editor, Data Entry, Open Source"
+              summary_use_case: "Data definitions, documentation, entry, and analysis with DDI export."
+              summary_release_rate: "Version supported: 3.1"
+              summary_integrations: "Win32"
+              summary_personas: "Data managers, researchers"
+              annotations:
+                availability: "In production"
+                institution_name: "EpiData Association, Denmark"
+                institution_url: "http://www.epidata.dk/"
+                authors: "Jens Lauritsen, Torsten Bonde Christiansen"
+
+          - name: DDI with R
+            homepage_url: https://cran.r-project.org/web/packages/DDIwR/index.html
+            logo: ddiwr.svg
+            description: Complete package to create, edit and validate a DDI Codebook version 2.6, using R script commands.
+            license: "GPL-3"
+            extra:
+              summary_tags: "DDI, R, Editor, Open Source"
+              summary_use_case: "Create, edit and validate DDI Codebook version 2.6 using R."
+              summary_release_rate: "Version supported: 2.5"
+              summary_integrations: "R"
+              summary_personas: "Data managers, R users"
+              annotations:
+                availability: "In production"
+                institution_name: "RODA - Romanian Social Data Archive"
+                authors: "Adrian Dusa"
+
+  - name: Questionnaire Designers
+    subcategories:
+      - name: Visual Designers
+        items:
+          - name: Colectica Designer
+            homepage_url: http://www.colectica.com/products/designer/
+            logo: colectica-designer.png
+            description: Visual DDI metadata editor and survey questionnaire designer.
+            repo_url: https://github.com/Colectica/Designer
+            license: "Commercial"
+            extra:
+              summary_tags: "DDI, Editor, Questionnaire Designer, Commercial"
+              summary_use_case: "Visual DDI metadata editor and survey questionnaire designer. Integrates with Colectica Repository for advanced data management."
+              summary_business_use_case: "Supports conversion among DDI, DDI from software, questionnaire design, and data management."
+              summary_release_rate: "Versions supported: 1.x, 2.0, 2.1, 2.5, 3.1, 3.2, 3.3"
+              summary_integrations: "Works with Colectica Repository; Win32"
+              summary_personas: "Survey designers, data managers"
+              annotations:
+                availability: "In production"
+                institution_name: "Colectica"
+                institution_url: "http://www.colectica.com/"
+                authors: "Jeremy Iverson, Dan Smith"
+                contact_email: "support@colectica.com"
+                latest_version: "3.0.1932"
+                support: "Free, for limited time"
+            second_path:
+              - "Editors / Questionnaire Editors"
+
+          - name: Colectica Questionnaires
+            homepage_url: https://www.colectica.com/software/questionnaires/
+            logo: colectica-questionnaires.png
+            description: Survey specification creator with multi-format publishing and question bank integration.
+            repo_url: https://github.com/Colectica/Questionnaires
+            license: "Commercial"
+            extra:
+              summary_tags: "DDI, Questionnaire, Designer, Commercial"
+              summary_use_case: "Survey specification creator with publishing to PDF, paper, DDI, and Blaise source code."
+              summary_release_rate: "Versions supported: 3.2, 3.3"
+              summary_integrations: "Works with Colectica Repository; Win32, Win64"
+              summary_personas: "Survey designers"
+              annotations:
+                availability: "In production"
+                institution_name: "Colectica"
+                institution_url: "http://www.colectica.com/"
+                authors: "Jeremy Iverson, Dan Smith"
+                contact_email: "support@colectica.com"
+                latest_version: "5.4"
+
+          - name: Eno
+            homepage_url: https://github.com/InseeFr/Eno
+            logo: eno.png
+            description: The French National Institute of Statistics and Economic Studies (Insee) has developed a metadata-driven survey data collection process including a questionnaire generator code-named Eno.
+            license: "MIT"
+            extra:
+              summary_tags: "DDI, Questionnaire Generator, Open Source, Insee, Metadata-driven, Automation"
+              summary_use_case: "Automated generation of web and paper questionnaires and documentation from DDI descriptions."
+              summary_business_use_case: "Streamlines survey data collection and instrument production for statistical agencies."
+              summary_release_rate: "Version supported: 3.3"
+              summary_integrations: "Integrates with Pogues; Win32"
+              summary_personas: "Survey managers, questionnaire designers, statisticians"
+              annotations:
+                availability: "In production"
+                institution_name: "French National Institute of Statistics and Economic Studies (Insee)"
+                institution_url: "https://www.insee.fr/en/"
+                support: "Community-driven support"
+                latest_version: "2.2.10"
+
+          - name: Pogues
+            homepage_url: https://github.com/InseeFr/Pogues
+            logo: pogues.png
+            description: Questionnaire design visual tool producing DDI descriptions, integrated with Eno.
+            license: "MIT"
+            extra:
+              summary_tags: "DDI, Questionnaire, Designer, Open Source"
+              summary_use_case: "Visual tool for specifying and visualising web, paper, and interviewer questionnaires in DDI."
+              summary_release_rate: "Version supported: 3.3"
+              summary_integrations: "Integrates with Eno"
+              summary_personas: "Survey managers, questionnaire designers"
+              annotations:
+                availability: "In production"
+                institution_name: "French National Institute of Statistics and Economic Studies (Insee)"
+                institution_url: "https://www.insee.fr/en/"
+                support: "Community-driven support"
+
+      - name: Spreadsheet Designers
+        items:
+          - name: Colectica for Excel
+            homepage_url: https://www.colectica.com/software/colecticaforexcel/
+            logo: colectica-excel.svg
+            description: Free tool to document spreadsheet data using the DDI standard.
+            repo_url: https://github.com/Colectica/Excel
+            license: "Freeware"
+            extra:
+              summary_tags: "DDI, Excel, Documentation, Freeware"
+              summary_use_case: "Document variables, code lists, and datasets directly from Excel. Import Stata/SPSS, export DDI-Lifecycle."
+              summary_business_use_case: "Enables standards-based metadata documentation for spreadsheet data."
+              summary_release_rate: "Versions supported: 3.1, 3.2, 3.3"
+              summary_integrations: "Microsoft Excel 2007, 2010, 2013; Win32"
+              summary_personas: "Data managers, researchers"
+              annotations:
+                availability: "In production"
+                institution_name: "Colectica"
+                institution_url: "http://www.colectica.com/"
+                authors: "Jeremy Iverson, Dan Smith"
+                contact_email: "support@colectica.com"
+                latest_version: "4.1"
+                support: "Free, for limited time"
+
+          - name: queXML
+            homepage_url: https://quexml.acspri.org.au
+            logo: quexml.svg
+            description: Simple XML schema for designing questionnaires, compatible with DDI.
+            license: "Freeware"
+            extra:
+              summary_tags: "DDI, Questionnaire, XML, Freeware"
+              summary_use_case: "Design questionnaires in XML, with stylesheets for PDF, CASES, LimeSurvey."
+              summary_release_rate: "Version supported: 2.1"
+              summary_personas: "Survey designers"
+              annotations:
+                availability: "Unknown"
+                institution_name: "Australian Consortium for Social and Political Research Incorporated"
+
+      - name: Web-based Designers
+        items:
+          - name: QDDT
+            homepage_url: https://github.com/DASISH/qddt-client/wiki
+            logo: qddt.svg
+            description: Interactive, dynamic web-based tool for questionnaire design and documentation.
+            license: "GPL"
+            extra:
+              summary_tags: "DDI, Questionnaire, Designer, Open Source"
+              summary_use_case: "Document and manage the design process for thematic modules and cross-national surveys."
+              summary_release_rate: "Version supported: 3.2"
+              summary_integrations: "Web-based"
+              summary_personas: "Survey designers, researchers"
+              annotations:
+                availability: "In production"
+                institution_name: "Norwegian Centre for Research Data - NSD, ESS HQ, City University of London"
+                authors: "Stig Norland, Yong Liu, Dag Ø. Heradstveit, Håvard V. Bakkmoen, Knut Kalgraff Skjåk, Benjamin Beuster, Hilde Orten, Sarah Butt, Yvette Prestage, Virginia Roos, Sally Widdop, Joachim Wackerow"
+                latest_version: "1.0"
+                support: "Community-driven support"
+
+  - name: Converters & Transformation
+    subcategories:
+      - name: DDI Converters
+        items:
+          - name: StatConverter
+            homepage_url: https://roda.github.io/StatConverter/
+            logo: statconverter.svg
+            description: Cross-platform software to convert from major statistical software datasets to DDI Codebook.
+            license: "Academic Non-Commercial License"
+            extra:
+              summary_tags: "DDI, Converter, RODA"
+              summary_use_case: "Convert datasets from major statistical software to DDI Codebook."
+              summary_release_rate: "Version supported: 2.5"
+              summary_personas: "Data managers, researchers"
+              annotations:
+                availability: "In production"
+                institution_name: "RODA - Romanian Social Data Archive"
+                authors: "Adrian Dusa"
+
+          - name: DDI to DDL
+            homepage_url: http://sda.berkeley.edu/ddi/tools/
+            logo: berkeley.png
+            description: Online DDI to DDL Conversion Service.
+            license: "Freeware"
+            extra:
+              summary_tags: "DDI, Converter, Freeware"
+              summary_use_case: "Upload DDI files and convert to DDL format."
+              summary_release_rate: "Version supported: 2.1"
+              summary_integrations: "Web-based; OS independent"
+              summary_personas: "Data managers"
+              annotations:
+                institution_name: "CSM Program, Univ. of Calif., Berkeley"
+                contact_email: "sda@berkeley.edu"
+
+          - name: XCONVERT
+            homepage_url: http://sda.berkeley.edu/ddi/tools/
+            logo: berkeley.png
+            description: Tool to convert SAS, SPSS, and Stata data definitions to DDI.
+            license: "Freeware"
+            extra:
+              summary_tags: "DDI, Converter, Freeware"
+              summary_use_case: "Convert SAS, SPSS, Stata data definitions to DDI."
+              summary_release_rate: "Version supported: 2.1"
+              summary_integrations: "Win32"
+              summary_personas: "Data managers"
+              annotations:
+                institution_name: "CSM Program, Univ. of Calif., Berkeley"
+                contact_email: "sda@berkeley.edu"
+
+      - name: DDI Transformation
+        items:
+          - name: DDI-XSLT
+            homepage_url: https://github.com/MetadataTransform/ddi-xslt
+            logo: ddi-xslt.png
+            description: Collection of XSLT stylesheets for DDI for transformation to other formats.
+            license: "GNU Lesser General Public License 3.0"
+            extra:
+              summary_tags: "DDI, XSLT, Transformation, Open Source"
+              summary_use_case: "Transform DDI 3.1 to XHTML, DDI 2.1 to RDF, DDI 3.1 to datacite."
+              summary_release_rate: "Versions supported: 2.1, 3.1"
+              summary_integrations: "XSLT; Win32"
+              summary_personas: "Developers, data managers"
+              annotations:
+                availability: "Alpha release"
+                institution_name: "Danish Data Archive, Gesis"
+                authors: "Dan Kristiansen, Jannik Vestergaard Jensen, Thomas Bosch, Benjamin Zapilko"
+                contact_email: "olof.olsson@snd.gu.se"
+                support: "Community-driven support"
+
+          - name: DDI to HTML Stylesheet
+            homepage_url: http://www.icpsr.umich.edu
+            logo: icpsr.png
+            description: Tool to transform and format content of DDI documents as HTML pages.
+            license: "Information not available"
+            extra:
+              summary_tags: "DDI, XSLT, Transformation, Freeware"
+              summary_use_case: "Transform DDI documents to HTML."
+              summary_release_rate: "Version supported: 2.0"
+              summary_integrations: "XSLT; Win32"
+              summary_personas: "Data managers"
+              annotations:
+                availability: "No longer developed, but still available"
+                institution_name: "ICPSR"
+                latest_version: "1.0"
+                support: "Community-driven support"
+
+          - name: DDIProfileXSLT
+            homepage_url: http://www.ddialliance.org/node/918
+            logo: ddiprofilexslt.svg
+            description: XSLT scripts to create and render DDI Profiles in HTML.
+            license: "Information not available"
+            extra:
+              summary_tags: "DDI, Profile, XSLT, Free"
+              summary_use_case: "Generate and render DDI Profiles from DDI instances."
+              summary_release_rate: "Versions supported: 3.1, 3.2"
+              summary_integrations: "XSLT 1.0; Win32, Win64, Linux32, Linux64, Macintosh, Other"
+              summary_personas: "Developers, data managers"
+              annotations:
+                availability: "In production"
+                authors: "Joachim Wackerow"
+                contact_email: "joachim.wackerow@gesis.org"
+                latest_version: "2014-05-17"
+                support: "Free, to any user"
+
+  - name: Index/Search
+    subcategories:
+      - name: Repositories & Search
+        items:
+          - name: Microdata Cataloging Tool (NADA)
+            homepage_url: https://nada.ihsn.org/
+            logo: ihsn.svg
+            description: Web-based cataloging system for researchers to browse, search, compare, and download census or survey information.
+            license: "MIT"
+            extra:
+              summary_tags: "DDI, Catalog, Web, Open Source"
+              summary_use_case: "Catalog and access national survey data archives using DDI."
+              summary_release_rate: "Versions supported: 1.x, 2.0, 2.1, 2.5"
+              summary_integrations: "PHP 5.2+, xsl, xml, mbstring, mysql or sqlserv; Win32"
+              summary_personas: "Researchers, data archivists"
+              annotations:
+                availability: "In production"
+                institution_name: "International Household Survey Network, World Bank Data Group"
+                authors: "World Bank Data Group, International Household Survey Network (IHSN)"
+                latest_version: "5.4.1"
+
+          - name: CED2AR
+            homepage_url: https://www.ncrn.cornell.edu/projects/#Metadata_Standards_and_Tools
+            logo: ced2ar.png
+            description: CED2AR (Comprehensive Extensible Data Documentation and Access Repository) is a lightweight DDI 2.5 repository.
+            repo_url: https://github.com/ncrncornell/ced2ar
+            license: "CC BY-NC-SA 4.0 International"
+            extra:
+              summary_tags: "DDI, Repository, Index, Search, Open Source"
+              summary_use_case: "Lightweight DDI 2.5 repository for data documentation and access."
+              summary_business_use_case: "Supports data documentation and access for research projects, funded by NSF."
+              summary_release_rate: "Version supported: 2.5"
+              summary_integrations: "Java, JavaScript, XQuery; Win32"
+              summary_personas: "Data archivists, researchers"
+              annotations:
+                availability: "In production"
+                institution_name: "Cornell University"
+                institution_url: "http://www2.ncrn.cornell.edu/ced2ar-web/about"
+                authors: "CED2AR development team"
+                contact_email: "ced2ar-devs-l@cornell.edu"
+                latest_version: "2.5"
+                support: "Community-driven support"
+
+          - name: Colectica Portal
+            homepage_url: http://www.colectica.com/products/web/
+            logo: colectica-portal.png
+            description: Web application for data and metadata publication and discovery.
+            repo_url: https://github.com/Colectica/Portal
+            license: "Commercial"
+            extra:
+              summary_tags: "DDI, Portal, Web, Commercial"
+              summary_use_case: "Web application for data and metadata publication and discovery, powered by Colectica Repository."
+              summary_business_use_case: "Enables publication and discovery of data and metadata."
+              summary_release_rate: "Versions supported: 3.1, 3.2, 3.3"
+              summary_integrations: "Works with Colectica Repository"
+              summary_personas: "Data publishers, researchers"
+              annotations:
+                availability: "In production"
+                institution_name: "Colectica"
+                institution_url: "http://www.colectica.com/"
+                authors: "Jeremy Iverson, Dan Smith"
+                contact_email: "support@colectica.com"
+
+          - name: Colectica Repository
+            homepage_url: http://www.colectica.com/products/repository/
+            logo: colectica-repository.png
+            description: Centralised storage system for managing DDI data resources, enabling collaborative workflows and version control.
+            repo_url: https://github.com/Colectica/Repository
+            license: "Commercial"
+            extra:
+              summary_tags: "DDI, Repository, Index, Store, Commercial"
+              summary_use_case: "Centralised storage for DDI data resources, collaborative workflows, version control."
+              summary_release_rate: "Versions supported: 3.1, 3.2, 3.3"
+              summary_integrations: "Works with Colectica Designer, Portal, Questionnaires; Win32"
+              summary_personas: "Data managers, archivists"
+              annotations:
+                availability: "In production"
+                institution_name: "Colectica"
+                institution_url: "http://www.colectica.com/"
+                authors: "Jeremy Iverson, Dan Smith"
+                contact_email: "support@colectica.com"
+                latest_version: "3.0.1932"
+                support: "For-fee"
+
+          - name: DDI Index
+            homepage_url: http://assda.anu.edu.au/ddiindex.html
+            logo: ddi-index.svg
+            description: Java/Javascript application for indexing and searching XML files created in DDI format.
+            license: "Freeware"
+            extra:
+              summary_tags: "DDI, Index, Search, Freeware"
+              summary_use_case: "Index and search DDI XML files using Lucene."
+              summary_release_rate: "Version supported: 2.1"
+              summary_personas: "Data managers"
+              annotations:
+                availability: "Unknown"
+                institution_name: "Australian Social Science Data Archive"
+
+          - name: GESIS DDI Search
+            homepage_url: https://demo.ddi.gesis.org/search
+            logo: gesis.svg
+            description: Enables search and browse for questions, variables and study documentation in multiple languages.
+            license: "Information not available"
+            extra:
+              summary_tags: "DDI, Search, GESIS"
+              summary_use_case: "Search, compare, and re-use survey questions for social scientists."
+              summary_release_rate: "Version supported: 3.2"
+              summary_integrations: "Dockerised"
+              summary_personas: "Social scientists, data managers"
+              annotations:
+                availability: "Beta release"
+                institution_name: "GESIS - Leibniz institute for the social sciences"
+                authors: "Thomas Krämer, Claus-Peter Klas, Oliver Hopt, Alexander Mühlbauer"
+
+  - name: Protection
+    subcategories:
+      - name: Data Protection
+        items:
+          - name: DDI Data Description Statistics Protection Software
+            homepage_url: http://www.adp.fdv.uni-lj.si/eng/za_uporabnike/usposabljanje_uporabnikov/orodje_zascita_statistik/
+            logo: ddi-protection.svg
+            description: Tool for anonymisation of DDI standard univariate statistics, protecting aggregated data directly in XML code.
+            license: "Freeware"
+            extra:
+              summary_tags: "DDI, Protection, Anonymisation, Freeware"
+              summary_use_case: "Anonymise univariate statistics in DDI XML, with various data protection methods."
+              summary_release_rate: "Versions supported: 2.0, 2.1, 2.5"
+              summary_integrations: "Python; Win32"
+              summary_personas: "Data managers, researchers"
+              annotations:
+                availability: "Beta release"
+                institution_name: "Social Science Data Archives (University of Ljubljana, Slovenia)"
+                authors: "Sebastian Kočar (author), Katarina Stupica (programmer)"
+                contact_email: "sebastian.kocar@fdv.uni-lj.si"
+                support: "Community-driven support"
+                latest_version: "1.1"
+
+  - name: Resolution
+    subcategories:
+      - name: Identifier Resolution
+        items:
+          - name: Colectica Resolver
+            homepage_url: http://resolver.colectica.com
+            logo: colectica-resolver.svg
+            description: DNS-based resolution service for DDI3 agency identifiers and related metadata.
+            license: "Freeware"
+            extra:
+              summary_tags: "DDI, Resolver, DNS, Freeware"
+              summary_use_case: "Resolve DDI3 agency identifiers and metadata via DNS."
+              summary_release_rate: "Versions supported: 3.1, 3.2, 3.3"
+              summary_personas: "Developers, data managers"
+              annotations:
+                availability: "Unknown"
+                institution_name: "Colectica"
+                institution_url: "http://www.colectica.com/"
+                authors: "Jeremy Iverson, Dan Smith"
+                contact_email: "support@colectica.com"
+
+          - name: Colectica Resolver Library
+            homepage_url: http://resolver.colectica.com/Home/Develop
+            logo: colectica-resolver-library.svg
+            description: Library for integrating DNS-based data resolution in applications (.NET and Java).
+            license: "Freeware"
+            extra:
+              summary_tags: "DDI, Resolver, Library, Freeware"
+              summary_use_case: "Integrate DNS-based data resolution in .NET and Java applications."
+              summary_release_rate: "Versions supported: 3.1, 3.2, 3.3"
+              summary_personas: "Developers"
+              annotations:
+                availability: "Unknown"
+                institution_name: "Colectica"
+                institution_url: "http://www.colectica.com/"
+                authors: "Jeremy Iverson, Dan Smith"
+                contact_email: "support@colectica.com"
+
+  - name: Other/Collection
+    subcategories:
+      - name: Tool Collections
+        items:
+          - name: DDI Tools Made Available by the SDA Project
+            homepage_url: http://sda.berkeley.edu/ddi/tools/
+            logo: berkeley.png
+            description: Online analysis system providing tools to create DDI 2.
+            license: "Information not available"
+            extra:
+              summary_tags: "DDI, Tools, Collection"
+              summary_use_case: "Online analysis and DDI tool collection."
+              summary_release_rate: "Version supported: 2.1"
+              summary_personas: "Researchers"
+              annotations:
+                availability: "In production"
+                institution_name: "SDA Project CSM Program, Univ. of Calif., Berkeley"
+                contact_email: "sda@berkeley.edu"
+
+          - name: DDI 3.0 Core
+            homepage_url: http://www.ddialliance.org/sites/default/files/ddi3/DDI3_CR3_Core.xml
+            logo: ddi3-core.svg
+            description: Recommended elements, formerly DDI Lite.
+            license: "Freeware"
+            extra:
+              summary_tags: "DDI, Core, Freeware"
+              summary_use_case: "Recommended elements for DDI 3.0."
+              summary_release_rate: "Version supported: 3.0"
+              summary_personas: "Data managers"
+              annotations:
+                authors: "Sanda Ionescu, ICPSR"
+                contact_email: "sandai@umich.edu"
+
+          - name: DDI DExT
+            homepage_url: http://www.docstoc.com/docs/159004579/Quantitative-DExT-project---DExT---UK-Data-Archive
+            logo: ddidext.svg
+            description: Tool to import data and DDI metadata from SPSS files with conversion to ASCII and re-export to SAS, Stata and SPSS.
+            license: "GNU Lesser General Public License (LGPL)"
+            extra:
+              summary_tags: "DDI, DExT, Converter, Open Source"
+              summary_use_case: "Import SPSS, convert to ASCII, SAS, Stata, SPSS, export DDI 2.0/3.0."
+              summary_release_rate: "Versions supported: 2.1, 3.0"
+              summary_integrations: "Java, Eclipse RCP; Win32, Other"
+              summary_personas: "Data managers"
+              annotations:
+                availability: "No longer developed, but still available"
+                institution_name: "Open Data Foundation"
+                authors: "Pascal Heus"
+                contact_email: "info@opendatafoundation.org"
+                latest_version: "20080426"
+                support: "None"
