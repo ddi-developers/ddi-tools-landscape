@@ -1,0 +1,18 @@
+category: DDI Resources & Collections
+subcategory: Specification Resources
+order: 1
+name: DDI 3.0 Core
+homepage_url: http://www.ddialliance.org/sites/default/files/ddi3/DDI3_CR3_Core.xml
+logo: ddi3-core.svg
+description: Recommended elements for DDI 3.0, formerly DDI Lite.
+license: Freeware
+extra:
+  summary_tags: DDI, Core, Freeware
+  summary_use_case: Recommended elements for DDI 3.0.
+  summary_personas: Data managers
+  annotations:
+    authors: Sanda Ionescu, ICPSR
+    contact_email: sandai@umich.edu
+    ddi_standards: DDI Lifecycle 3.0
+second_path:
+- DDI Standards / DDI Lifecycle 3.0

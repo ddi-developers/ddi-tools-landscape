@@ -1,0 +1,24 @@
+category: DDI Profiles
+subcategory: Profile Tooling
+order: 1
+name: DDIProfileXSLT
+homepage_url: http://www.ddialliance.org/node/918
+logo: ddiprofilexslt.svg
+description: XSLT scripts to create and render DDI Profiles in HTML.
+license: Information not available
+extra:
+  summary_tags: DDI, Profile, XSLT, Free
+  summary_use_case: Generate and render DDI Profiles from DDI instances.
+  summary_integrations: XSLT 1.0; Win32, Win64, Linux32, Linux64, Macintosh, Other
+  summary_personas: Developers, data managers
+  annotations:
+    availability: In production
+    authors: Joachim Wackerow
+    contact_email: joachim.wackerow@gesis.org
+    latest_version: '2014-05-17'
+    support: Free, to any user
+    ddi_standards: DDI Lifecycle 3.1, 3.2
+second_path:
+- DDI Transformation & Processing / Transformation
+- DDI Standards / DDI Lifecycle 3.1
+- DDI Standards / DDI Lifecycle 3.2

@@ -1,0 +1,19 @@
+category: DDI Repositories & Discovery
+subcategory: Search & Indexing
+order: 1
+name: DDI Index
+homepage_url: http://assda.anu.edu.au/ddiindex.html
+logo: ddi-index.svg
+description: Java/JavaScript application for indexing and searching XML files created in DDI
+  format.
+license: Freeware
+extra:
+  summary_tags: DDI, Index, Search, Freeware
+  summary_use_case: Index and search DDI XML files using Lucene.
+  summary_personas: Data managers
+  annotations:
+    availability: Unknown
+    institution_name: Australian Social Science Data Archive
+    ddi_standards: DDI Codebook 2.1
+second_path:
+- DDI Standards / DDI Codebook 2.1

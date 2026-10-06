@@ -1,0 +1,25 @@
+category: DDI Repositories & Discovery
+subcategory: Repositories & Catalogues
+order: 3
+name: Colectica Portal
+homepage_url: http://www.colectica.com/products/web/
+logo: colectica-portal.png
+description: Web application for data and metadata publication and discovery.
+repo_url: https://github.com/Colectica/Portal
+license: Commercial
+extra:
+  summary_tags: DDI, Portal, Web, Commercial
+  summary_use_case: Publication and discovery of data and metadata, powered by Colectica Repository.
+  summary_integrations: Works with Colectica Repository
+  summary_personas: Data publishers, researchers
+  annotations:
+    availability: In production
+    institution_name: Colectica
+    institution_url: http://www.colectica.com/
+    authors: Jeremy Iverson, Dan Smith
+    contact_email: support@colectica.com
+    ddi_standards: DDI Lifecycle 3.1, 3.2, 3.3
+second_path:
+- DDI Standards / DDI Lifecycle 3.1
+- DDI Standards / DDI Lifecycle 3.2
+- DDI Standards / DDI Lifecycle 3.3

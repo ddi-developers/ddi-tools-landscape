@@ -57,6 +57,28 @@ If you have cloned this repository and want to run the landscape locally:
 
    The landscape will be available at http://localhost:8080 by default.
 
+## Editing tool data
+
+Tool entries are maintained as one YAML file per tool under `tools/`, rather
+than directly in `data.yml`. `data.yml` is generated and should not be edited
+by hand.
+
+- `structure.yml` lists the categories and subcategories, in display order.
+- `tools/<tool>.yml` holds one tool's data: `category`, `subcategory`, and
+  `order` (position within the subcategory), followed by the usual landscape2
+  item fields (`name`, `homepage_url`, `description`, `extra`, etc.). A tool
+  listed under more than one subcategory (e.g. EpiData Software) gets a
+  separate file per placement.
+
+To add, remove, or edit a tool, change the relevant file(s) under `tools/`
+(and `structure.yml` if you're adding a new category/subcategory), then
+regenerate `data.yml`:
+
+    python3 scripts/build_data.py
+
+Requires PyYAML (`pip install pyyaml`). Re-run the normal `landscape2 build`
+step afterwards to rebuild the site.
+
 ## Notes
 
 - Some license information has been updated or generalised.

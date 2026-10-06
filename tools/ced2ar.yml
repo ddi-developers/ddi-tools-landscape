@@ -1,0 +1,24 @@
+category: DDI Repositories & Discovery
+subcategory: Repositories & Catalogues
+order: 2
+name: CED2AR
+homepage_url: https://www.ncrn.cornell.edu/projects/#Metadata_Standards_and_Tools
+logo: ced2ar.png
+description: Lightweight DDI 2.5 repository for data documentation and access.
+repo_url: https://github.com/ncrncornell/ced2ar
+license: CC BY-NC-SA 4.0 International
+extra:
+  summary_tags: DDI, Repository, Index, Search, Open Source
+  summary_use_case: Supports data documentation and access for research projects.
+  summary_integrations: Java, JavaScript, XQuery; Win32
+  summary_personas: Data archivists, researchers
+  annotations:
+    availability: In production
+    institution_name: Cornell University
+    authors: CED2AR development team
+    contact_email: ced2ar-devs-l@cornell.edu
+    latest_version: '2.5'
+    support: Community-driven support
+    ddi_standards: DDI Codebook 2.5
+second_path:
+- DDI Standards / DDI Codebook 2.5

@@ -1,0 +1,19 @@
+category: DDI Transformation & Processing
+subcategory: Converters
+order: 2
+name: DDI to DDL
+homepage_url: http://sda.berkeley.edu/ddi/tools/
+logo: berkeley.png
+description: Online DDI to DDL conversion service.
+license: Freeware
+extra:
+  summary_tags: DDI, Converter, Freeware
+  summary_use_case: Upload DDI files and convert to DDL format.
+  summary_integrations: Web-based; OS independent
+  summary_personas: Data managers
+  annotations:
+    institution_name: CSM Program, Univ. of California, Berkeley
+    contact_email: sda@berkeley.edu
+    ddi_standards: DDI Codebook 2.1
+second_path:
+- DDI Standards / DDI Codebook 2.1

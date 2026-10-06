@@ -1,0 +1,24 @@
+category: DDI Repositories & Discovery
+subcategory: Repositories & Catalogues
+order: 1
+name: Microdata Cataloging Tool (NADA)
+homepage_url: https://nada.ihsn.org/
+logo: ihsn.svg
+description: Web-based cataloging system for researchers to browse, search, compare, and download
+  census or survey information.
+license: MIT
+extra:
+  summary_tags: DDI, Catalog, Web, Open Source
+  summary_use_case: Catalog and access national survey data archives using DDI.
+  summary_integrations: PHP 5.2+, XSL, XML, mbstring, MySQL or SQL Server; Win32
+  summary_personas: Researchers, data archivists
+  annotations:
+    availability: In production
+    institution_name: International Household Survey Network, World Bank Data Group
+    authors: World Bank Data Group, International Household Survey Network (IHSN)
+    latest_version: 5.4.1
+    ddi_standards: DDI Codebook 2.0, 2.1, 2.5
+second_path:
+- DDI Standards / DDI Codebook 2.0
+- DDI Standards / DDI Codebook 2.1
+- DDI Standards / DDI Codebook 2.5

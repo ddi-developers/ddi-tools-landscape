@@ -1,0 +1,21 @@
+category: DDI Transformation & Processing
+subcategory: Transformation
+order: 2
+name: DDI to HTML Stylesheet
+homepage_url: http://www.icpsr.umich.edu
+logo: icpsr.png
+description: Tool to transform and format content of DDI documents as HTML pages.
+license: Information not available
+extra:
+  summary_tags: DDI, XSLT, Transformation, Freeware
+  summary_use_case: Transform DDI documents to HTML.
+  summary_integrations: XSLT; Win32
+  summary_personas: Data managers
+  annotations:
+    availability: No longer developed, but still available
+    institution_name: ICPSR
+    latest_version: '1.0'
+    support: Community-driven support
+    ddi_standards: DDI Codebook 2.0
+second_path:
+- DDI Standards / DDI Codebook 2.0

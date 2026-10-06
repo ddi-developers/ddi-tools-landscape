@@ -1,0 +1,23 @@
+category: Survey & Data Collection Tools
+subcategory: Questionnaire Design
+order: 4
+name: QDDT
+homepage_url: https://github.com/DASISH/qddt-client/wiki
+logo: qddt.svg
+description: Interactive, dynamic web-based tool for questionnaire design and documentation.
+license: GPL
+extra:
+  summary_tags: DDI, Questionnaire, Designer, Open Source
+  summary_use_case: Document and manage the design process for thematic modules and cross-national
+    surveys.
+  summary_integrations: Web-based
+  summary_personas: Survey designers, researchers
+  annotations:
+    availability: In production
+    institution_name: Norwegian Centre for Research Data - NSD, ESS HQ, City University of
+      London
+    latest_version: '1.0'
+    support: Community-driven support
+    ddi_standards: DDI Lifecycle 3.2
+second_path:
+- DDI Standards / DDI Lifecycle 3.2

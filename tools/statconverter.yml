@@ -1,0 +1,20 @@
+category: DDI Transformation & Processing
+subcategory: Converters
+order: 1
+name: StatConverter
+homepage_url: https://roda.github.io/StatConverter/
+logo: statconverter.svg
+description: Cross-platform software to convert major statistical software datasets to DDI
+  Codebook.
+license: Academic Non-Commercial License
+extra:
+  summary_tags: DDI, Converter, RODA
+  summary_use_case: Convert datasets from major statistical software to DDI Codebook.
+  summary_personas: Data managers, researchers
+  annotations:
+    availability: In production
+    institution_name: RODA - Romanian Social Data Archive
+    authors: Adrian Dusa
+    ddi_standards: DDI Codebook 2.5
+second_path:
+- DDI Standards / DDI Codebook 2.5

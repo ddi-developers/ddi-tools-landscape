@@ -1,0 +1,19 @@
+category: DDI Resources & Collections
+subcategory: Tool Collections
+order: 1
+name: DDI Tools Made Available by the SDA Project
+homepage_url: http://sda.berkeley.edu/ddi/tools/
+logo: berkeley.png
+description: Online analysis system providing tools to create DDI 2.
+license: Information not available
+extra:
+  summary_tags: DDI, Tools, Collection
+  summary_use_case: Online analysis and DDI tool collection.
+  summary_personas: Researchers
+  annotations:
+    availability: In production
+    institution_name: SDA Project CSM Program, Univ. of California, Berkeley
+    contact_email: sda@berkeley.edu
+    ddi_standards: DDI Codebook 2.1
+second_path:
+- DDI Standards / DDI Codebook 2.1

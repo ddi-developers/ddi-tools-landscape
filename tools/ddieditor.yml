@@ -1,0 +1,24 @@
+category: DDI Authoring & Design
+subcategory: Metadata Editors
+order: 2
+name: DdiEditor
+homepage_url: http://code.google.com/p/ddieditor/
+logo: ddieditor.svg
+description: Key tool in a framework of data processing tools and processes for survey datasets.
+license: GNU Lesser GPL
+extra:
+  summary_tags: DDI, Editor, Open Source
+  summary_use_case: Data documentation in accordance with the international metadata standard
+    for survey collections.
+  summary_integrations: Java, XQuery, OSGi; Win32
+  summary_personas: Data managers, researchers
+  annotations:
+    availability: In production
+    institution_name: Danish Data Archive, GESIS
+    authors: Jannik Jensen, Dan Kristensen
+    contact_email: jvj@dda.dk
+    latest_version: 1.8.0
+    support: Community-driven support
+    ddi_standards: DDI Lifecycle 3.1
+second_path:
+- DDI Standards / DDI Lifecycle 3.1

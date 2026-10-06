@@ -1,0 +1,22 @@
+category: Statistical & Research Data Tools
+subcategory: Data Analysis & Preparation
+order: 1
+name: EpiData Software
+homepage_url: http://www.epidata.dk/
+logo: epidata.svg
+description: Software package for data definitions, documentation, entry, and analysis based
+  on DDI standards.
+license: Open Source / Other (see full license at https://www.epidata.dk/about.htm)
+extra:
+  summary_tags: DDI, Editor, Data Entry, Open Source
+  summary_use_case: Data definitions, documentation, entry, and analysis with DDI export.
+  summary_integrations: Win32
+  summary_personas: Data managers, researchers
+  annotations:
+    availability: In production
+    institution_name: EpiData Association, Denmark
+    authors: Jens Lauritsen, Torsten Bonde Christiansen
+    ddi_standards: DDI Lifecycle 3.1
+second_path:
+- Survey & Data Collection Tools / Data Collection & Entry
+- DDI Standards / DDI Lifecycle 3.1

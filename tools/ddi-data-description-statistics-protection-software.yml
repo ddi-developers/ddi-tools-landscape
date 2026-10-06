@@ -1,0 +1,27 @@
+category: Statistical & Research Data Tools
+subcategory: Data Protection
+order: 1
+name: DDI Data Description Statistics Protection Software
+homepage_url: http://www.adp.fdv.uni-lj.si/eng/za_uporabnike/usposabljanje_uporabnikov/orodje_zascita_statistik/
+logo: ddi-protection.svg
+description: Tool for anonymisation of DDI-standard univariate statistics, protecting aggregated
+  data directly in XML.
+license: Freeware
+extra:
+  summary_tags: DDI, Protection, Anonymisation, Freeware
+  summary_use_case: Anonymise univariate statistics in DDI XML using various data-protection
+    methods.
+  summary_integrations: Python; Win32
+  summary_personas: Data managers, researchers
+  annotations:
+    availability: Beta release
+    institution_name: Social Science Data Archives (University of Ljubljana, Slovenia)
+    authors: Sebastian Kočar, Katarina Stupica
+    contact_email: sebastian.kocar@fdv.uni-lj.si
+    latest_version: '1.1'
+    support: Community-driven support
+    ddi_standards: DDI Codebook 2.0, 2.1, 2.5
+second_path:
+- DDI Standards / DDI Codebook 2.0
+- DDI Standards / DDI Codebook 2.1
+- DDI Standards / DDI Codebook 2.5

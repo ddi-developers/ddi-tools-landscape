@@ -1,0 +1,26 @@
+category: DDI Authoring & Design
+subcategory: Questionnaire Editors
+order: 1
+name: Archivist
+homepage_url: https://github.com/CLOSER-Cohorts/archivist
+logo: archivist.png
+description: Easy-to-use editor for documenting questionnaires, routing, and mappings; exports
+  DDI-Lifecycle.
+repo_url: https://github.com/CLOSER-Cohorts/archivist
+license: Open Source
+extra:
+  summary_tags: DDI, Questionnaire, Editor, Open Source
+  summary_use_case: Questionnaire editor for documenting questionnaires, routing, and mapping
+    between questions and variables.
+  summary_integrations: Ruby on Rails, React; Win32
+  summary_personas: Survey methodologists, data managers, questionnaire designers
+  annotations:
+    availability: In production
+    institution_name: CLOSER
+    institution_url: https://www.closer.ac.uk
+    authors: Will Poynter, Charles DeBarros, Simon Reed
+    contact_email: closer@ucl.ac.uk
+    ddi_standards: DDI Lifecycle 3.2
+second_path:
+- Survey & Data Collection Tools / Questionnaire Editors
+- DDI Standards / DDI Lifecycle 3.2

@@ -1,0 +1,28 @@
+category: DDI Authoring & Design
+subcategory: Data Documentation
+order: 1
+name: Colectica for Excel
+homepage_url: https://www.colectica.com/software/colecticaforexcel/
+logo: colectica-excel.svg
+description: Free tool to document spreadsheet data using the DDI standard.
+repo_url: https://github.com/Colectica/Excel
+license: Freeware
+extra:
+  summary_tags: DDI, Excel, Documentation, Freeware
+  summary_use_case: Document variables, code lists, and datasets directly from Excel; import
+    Stata/SPSS and export DDI-Lifecycle.
+  summary_integrations: Microsoft Excel 2007, 2010, 2013; Win32
+  summary_personas: Data managers, researchers
+  annotations:
+    availability: In production
+    institution_name: Colectica
+    institution_url: http://www.colectica.com/
+    authors: Jeremy Iverson, Dan Smith
+    contact_email: support@colectica.com
+    latest_version: '4.1'
+    support: Free, for limited time
+    ddi_standards: DDI Lifecycle 3.1, 3.2, 3.3
+second_path:
+- DDI Standards / DDI Lifecycle 3.1
+- DDI Standards / DDI Lifecycle 3.2
+- DDI Standards / DDI Lifecycle 3.3

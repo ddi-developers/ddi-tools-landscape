@@ -1,0 +1,31 @@
+category: Survey & Data Collection Tools
+subcategory: Questionnaire Design
+order: 1
+name: Colectica Designer
+homepage_url: http://www.colectica.com/products/designer/
+logo: colectica-designer.png
+description: Visual DDI metadata editor and survey questionnaire designer.
+repo_url: https://github.com/Colectica/Designer
+license: Commercial
+extra:
+  summary_tags: DDI, Editor, Questionnaire Designer, Commercial
+  summary_use_case: Visual DDI metadata editor and survey questionnaire designer; integrates
+    with Colectica Repository.
+  summary_integrations: Works with Colectica Repository; Win32
+  summary_personas: Survey designers, data managers
+  annotations:
+    availability: In production
+    institution_name: Colectica
+    institution_url: http://www.colectica.com/
+    authors: Jeremy Iverson, Dan Smith
+    contact_email: support@colectica.com
+    latest_version: 3.0.1932
+    support: Free, for limited time
+    ddi_standards: DDI Codebook 2.0, 2.1, 2.5; DDI Lifecycle 3.1, 3.2, 3.3
+second_path:
+- DDI Standards / DDI Codebook 2.0
+- DDI Standards / DDI Codebook 2.1
+- DDI Standards / DDI Codebook 2.5
+- DDI Standards / DDI Lifecycle 3.1
+- DDI Standards / DDI Lifecycle 3.2
+- DDI Standards / DDI Lifecycle 3.3

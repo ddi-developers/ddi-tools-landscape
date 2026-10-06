@@ -1,0 +1,25 @@
+category: DDI Transformation & Processing
+subcategory: Converters
+order: 4
+name: DDI DExT
+homepage_url: http://www.docstoc.com/docs/159004579/Quantitative-DExT-project---DExT---UK-Data-Archive
+logo: ddidext.svg
+description: Tool to import data and DDI metadata from SPSS files with conversion to ASCII
+  and re-export to SAS, Stata, and SPSS.
+license: GNU Lesser General Public License (LGPL)
+extra:
+  summary_tags: DDI, DExT, Converter, Open Source
+  summary_use_case: Import SPSS, convert to ASCII, and re-export; supports DDI 2.x/3.0 metadata.
+  summary_integrations: Java, Eclipse RCP; Win32, Other
+  summary_personas: Data managers
+  annotations:
+    availability: No longer developed, but still available
+    institution_name: Open Data Foundation
+    authors: Pascal Heus
+    contact_email: info@opendatafoundation.org
+    latest_version: '20080426'
+    support: None
+    ddi_standards: DDI Codebook 2.1; DDI Lifecycle 3.0
+second_path:
+- DDI Standards / DDI Codebook 2.1
+- DDI Standards / DDI Lifecycle 3.0

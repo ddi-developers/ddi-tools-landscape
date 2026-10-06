@@ -1,0 +1,20 @@
+category: DDI Authoring & Design
+subcategory: Metadata Editors
+order: 3
+name: DDI with R
+homepage_url: https://cran.r-project.org/web/packages/DDIwR/index.html
+logo: ddiwr.svg
+description: R package to create, edit, and validate DDI Codebook 2.6 using R commands.
+license: GPL-3
+extra:
+  summary_tags: DDI, R, Editor, Open Source
+  summary_use_case: Create, edit, and validate DDI Codebook 2.6 using R.
+  summary_integrations: R
+  summary_personas: Data managers, R users
+  annotations:
+    availability: In production
+    institution_name: RODA - Romanian Social Data Archive
+    authors: Adrian Dusa
+    ddi_standards: DDI Codebook 2.6
+second_path:
+- DDI Standards / DDI Codebook 2.6

@@ -1,0 +1,23 @@
+category: Survey & Data Collection Tools
+subcategory: Questionnaire Design
+order: 3
+name: Pogues
+homepage_url: https://github.com/InseeFr/Pogues
+logo: pogues.png
+description: Questionnaire design visual tool producing DDI descriptions, integrated with
+  Eno.
+repo_url: https://github.com/InseeFr/Pogues
+license: MIT
+extra:
+  summary_tags: DDI, Questionnaire, Designer, Open Source
+  summary_use_case: Visual tool for specifying and visualising web, paper, and interviewer
+    questionnaires in DDI.
+  summary_integrations: Integrates with Eno
+  summary_personas: Survey managers, questionnaire designers
+  annotations:
+    availability: In production
+    institution_name: French National Institute of Statistics and Economic Studies (Insee)
+    support: Community-driven support
+    ddi_standards: DDI Lifecycle 3.3
+second_path:
+- DDI Standards / DDI Lifecycle 3.3

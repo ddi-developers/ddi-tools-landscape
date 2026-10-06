@@ -1,0 +1,24 @@
+category: DDI Transformation & Processing
+subcategory: Transformation
+order: 1
+name: DDI-XSLT
+homepage_url: https://github.com/MetadataTransform/ddi-xslt
+logo: ddi-xslt.png
+description: Collection of XSLT stylesheets for transforming DDI to other formats.
+repo_url: https://github.com/MetadataTransform/ddi-xslt
+license: GNU Lesser General Public License 3.0
+extra:
+  summary_tags: DDI, XSLT, Transformation, Open Source
+  summary_use_case: Transform DDI 3.1 to XHTML, DDI 2.1 to RDF, and DDI 3.1 to DataCite.
+  summary_integrations: XSLT; Win32
+  summary_personas: Developers, data managers
+  annotations:
+    availability: Alpha release
+    institution_name: Danish Data Archive, GESIS
+    authors: Dan Kristiansen, Jannik Vestergaard Jensen, Thomas Bosch, Benjamin Zapilko
+    contact_email: olof.olsson@snd.gu.se
+    support: Community-driven support
+    ddi_standards: DDI Codebook 2.1; DDI Lifecycle 3.1
+second_path:
+- DDI Standards / DDI Codebook 2.1
+- DDI Standards / DDI Lifecycle 3.1

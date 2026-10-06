@@ -1,0 +1,23 @@
+category: DDI Repositories & Discovery
+subcategory: Identifier Resolution
+order: 2
+name: Colectica Resolver Library
+homepage_url: http://resolver.colectica.com/Home/Develop
+logo: colectica-resolver-library.svg
+description: Library for integrating DNS-based data resolution in applications (.NET and Java).
+license: Freeware
+extra:
+  summary_tags: DDI, Resolver, Library, Freeware
+  summary_use_case: Integrate DNS-based data resolution in .NET and Java applications.
+  summary_personas: .NET/Java developers
+  annotations:
+    availability: Unknown
+    institution_name: Colectica
+    institution_url: http://www.colectica.com/
+    authors: Jeremy Iverson, Dan Smith
+    contact_email: support@colectica.com
+    ddi_standards: DDI Lifecycle 3.1, 3.2, 3.3
+second_path:
+- DDI Standards / DDI Lifecycle 3.1
+- DDI Standards / DDI Lifecycle 3.2
+- DDI Standards / DDI Lifecycle 3.3

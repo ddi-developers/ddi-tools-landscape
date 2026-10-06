@@ -1,0 +1,22 @@
+category: DDI Authoring & Design
+subcategory: Metadata Editors
+order: 1
+name: DDI 3.0 Editor-Lite
+homepage_url: http://www.ddialliance.org/hubfs/sites/default/files/ddi3/editor-lite-3/DDI_v2dot2.htm
+logo: ddi3-editor-lite.svg
+description: Authoring tool produced by ICPSR that supports production of DDI 3.0 instances.
+license: GNU Lesser General Public License (LGPL)
+extra:
+  summary_tags: DDI, Editor, Open Source
+  summary_use_case: Generates DDI 3.0 XML markup for basic study and variable-level descriptions.
+  summary_integrations: Java, Adobe Flex; Win32
+  summary_personas: Data managers, researchers
+  annotations:
+    availability: No longer developed, but still available
+    institution_name: ICPSR
+    authors: Aalap Doshi, Sanda Ionescu
+    contact_email: sandai@umich.edu
+    latest_version: '2.2'
+    ddi_standards: DDI Lifecycle 3.0
+second_path:
+- DDI Standards / DDI Lifecycle 3.0

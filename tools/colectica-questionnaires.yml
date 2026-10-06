@@ -1,0 +1,26 @@
+category: Survey & Data Collection Tools
+subcategory: Questionnaire Design
+order: 2
+name: Colectica Questionnaires
+homepage_url: https://www.colectica.com/software/questionnaires/
+logo: colectica-questionnaires.png
+description: Survey specification creator with multi-format publishing and question bank integration.
+repo_url: https://github.com/Colectica/Questionnaires
+license: Commercial
+extra:
+  summary_tags: DDI, Questionnaire, Designer, Commercial
+  summary_use_case: Survey specification creator with publishing to PDF, paper, DDI, and Blaise
+    source code.
+  summary_integrations: Works with Colectica Repository; Win32, Win64
+  summary_personas: Survey designers
+  annotations:
+    availability: In production
+    institution_name: Colectica
+    institution_url: http://www.colectica.com/
+    authors: Jeremy Iverson, Dan Smith
+    contact_email: support@colectica.com
+    latest_version: '5.4'
+    ddi_standards: DDI Lifecycle 3.2, 3.3
+second_path:
+- DDI Standards / DDI Lifecycle 3.2
+- DDI Standards / DDI Lifecycle 3.3

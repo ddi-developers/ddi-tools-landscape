@@ -1,0 +1,20 @@
+category: Survey & Data Collection Tools
+subcategory: Questionnaire Design
+order: 5
+name: queXML
+homepage_url: https://quexml.acspri.org.au
+logo: quexml.svg
+description: Simple XML schema for designing questionnaires, compatible with DDI.
+license: Freeware
+extra:
+  summary_tags: DDI, Questionnaire, XML, Freeware
+  summary_use_case: Design questionnaires in XML, with stylesheets for PDF, CAI/CASES, and
+    LimeSurvey.
+  summary_personas: Survey designers
+  annotations:
+    availability: Unknown
+    institution_name: Australian Consortium for Social and Political Research Incorporated
+    ddi_standards: DDI Codebook 2.1 (retained from current landscape; verify before relying
+      on this classification)
+second_path:
+- DDI Standards / DDI Codebook 2.1

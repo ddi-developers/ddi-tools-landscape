@@ -1,0 +1,24 @@
+category: Survey & Data Collection Tools
+subcategory: Questionnaire Generation
+order: 1
+name: Eno
+homepage_url: https://github.com/InseeFr/Eno
+logo: eno.png
+description: Metadata-driven survey data collection process including a questionnaire generator
+  developed by Insee.
+repo_url: https://github.com/InseeFr/Eno
+license: MIT
+extra:
+  summary_tags: DDI, Questionnaire Generator, Open Source, Insee, Metadata-driven, Automation
+  summary_use_case: Automated generation of web and paper questionnaires and documentation
+    from DDI descriptions.
+  summary_integrations: Integrates with Pogues
+  summary_personas: Survey managers, questionnaire designers, statisticians
+  annotations:
+    availability: In production
+    institution_name: French National Institute of Statistics and Economic Studies (Insee)
+    support: Community-driven support
+    latest_version: 2.2.10
+    ddi_standards: DDI Lifecycle 3.3
+second_path:
+- DDI Standards / DDI Lifecycle 3.3

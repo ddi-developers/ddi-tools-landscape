@@ -1,0 +1,18 @@
+category: DDI Transformation & Processing
+subcategory: Converters
+order: 3
+name: XCONVERT
+homepage_url: http://sda.berkeley.edu/ddi/tools/
+logo: berkeley.png
+description: Tool to convert SAS, SPSS, and Stata data definitions to DDI.
+license: Freeware
+extra:
+  summary_tags: DDI, Converter, Freeware
+  summary_use_case: Convert SAS, SPSS, and Stata data definitions to DDI.
+  summary_integrations: Win32
+  summary_personas: Data managers
+  annotations:
+    institution_name: CSM Program, Univ. of California, Berkeley
+    ddi_standards: DDI Codebook 2.1
+second_path:
+- DDI Standards / DDI Codebook 2.1
