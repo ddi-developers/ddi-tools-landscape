@@ -79,6 +79,16 @@ regenerate `data.yml`:
 Requires PyYAML (`pip install pyyaml`). Re-run the normal `landscape2 build`
 step afterwards to rebuild the site.
 
+## Publishing to GitHub Pages
+
+`.github/workflows/deploy-pages.yml` rebuilds and publishes the landscape
+automatically on every push to `main` (and can be run manually via the
+Actions tab). It regenerates `data.yml` from `tools/*.yml`, runs
+`landscape2 build`, and deploys the result with GitHub's Pages actions.
+
+One-time repository setup: in **Settings → Pages**, set **Source** to
+**GitHub Actions**.
+
 ## Notes
 
 - Some license information has been updated or generalised.
