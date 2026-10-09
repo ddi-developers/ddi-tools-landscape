@@ -48,6 +48,13 @@ categories:
           executive_director: Jared Lyle
   - name: Full Members
     items:
+    - name: Blaise - Statistics Netherlands
+      homepage_url: http://blaise.com/
+      logo: blaise.png
+      description: null
+      extra:
+        annotations:
+          designated_member_representative: Harry Wijnhoven
     - name: Center for Socio-Political Data (CDSP), Sciences Po
       homepage_url: https://cdsp.sciences-po.fr/fr/
       logo: cnrs.png
@@ -57,8 +64,337 @@ categories:
         annotations:
           designated_member_representative: Emiliano Grossman
           executive_board_member: Alina Danciu
+    - name: Central Statistics Office (Ireland)
+      homepage_url: https://www.cso.ie/en/
+      logo: cso-ireland.png
+      description: null
+      extra:
+        annotations:
+          designated_member_representative: Ken Moore
+    - name: CLOSER, UCL Institute of Education
+      homepage_url: https://www.closer.ac.uk/
+      logo: closer.png
+      description: null
+      extra:
+        annotations:
+          designated_member_representative: Hayley Mills
+          executive_board_member: Jon Johnson (elected)
+    - name: CODATA, Committee on Data of the International Science Council
+      homepage_url: https://codata.org/
+      logo: codata.png
+      description: null
+      extra:
+        annotations:
+          designated_member_representative: Simon Hodson
+          scientific_board_member: Simon Hodson (elected)
+    - name: Consortium of Social Science Data Archives (CESSDA)
+      homepage_url: http://cessda.net/
+      logo: cessda.png
+      description: null
+      extra:
+        annotations:
+          designated_member_representative: Bonnie Wolff-Boenisch
+          executive_board_member: Bonnie Wolff-Boenisch (elected)
+    - name: Finnish Social Science Data Archive
+      homepage_url: https://www.fsd.tuni.fi/en/
+      logo: fsd.png
+      description: null
+      extra:
+        annotations:
+          designated_member_representative: Katja Moilanen
+          executive_board_member: Katja Moilanen (elected)
+    - name: German Socio-Economic Panel Study (SOEP)
+      homepage_url: http://www.diw.de/deutsch/soep/29012.html
+      logo: soep.png
+      description: null
+      extra:
+        annotations:
+          designated_member_representative: Knut Wenzig
+    - name: National Institute of Statistics and Economic Studies (INSEE)
+      homepage_url: http://www.insee.fr/en/
+      logo: insee.png
+      description: null
+      extra:
+        annotations:
+          designated_member_representative: Frédéric Minodier
+    - name: Progedo
+      homepage_url: https://www.progedo.fr/
+      logo: progedo.png
+      description: null
+      extra:
+        annotations:
+          designated_member_representative: Nicolas Sauger
+    - name: Research Data Centre of the German Federal Employment Agency, Institute for Employment
+        Research (IAB)
+      homepage_url: https://fdz.iab.de/en/startseite-en/
+      logo: iab-fdz.png
+      description: null
+      extra:
+        annotations:
+          designated_member_representative: Matthias Umkehrer
+    - name: Sikt - Norwegian Agency for Shared Services in Education and Research
+      homepage_url: https://sikt.no/en/
+      logo: sikt.png
+      description: null
+      extra:
+        annotations:
+          designated_member_representative: Vigdis Kvalheim
+          scientific_board_member: Hilde Orten (elected)
+    - name: Stanford University
+      homepage_url: http://www.stanford.edu/
+      logo: stanford.png
+      description: null
+      extra:
+        annotations:
+          designated_member_representative: Ron Nakao
+    - name: Swedish National Data Service (SND)
+      homepage_url: http://snd.gu.se/
+      logo: snd.png
+      description: null
+      extra:
+        annotations:
+          designated_member_representative: André Jernung
+          executive_board_member: Johan Fihn Marberg (elected)
+    - name: Swiss Foundation for Research in Social Sciences (FORS)
+      homepage_url: http://www2.unil.ch/fors/?lang=en
+      logo: fors.png
+      description: null
+      extra:
+        annotations:
+          designated_member_representative: Meret Hildebrandt
+    - name: University of Alberta, Canada
+      homepage_url: http://www.ualberta.ca/
+      logo: ualberta.png
+      description: null
+      extra:
+        annotations:
+          designated_member_representative: John Huck
+    - name: University of Applied Science of the Grisons (FHGR)
+      homepage_url: http://fhgr.ch/
+      logo: fhgr.png
+      description: null
+      extra:
+        annotations:
+          designated_member_representative: David Schiller
+    - name: University of Essex
+      homepage_url: http://www.essex.ac.uk/
+      logo: essex.png
+      description: null
+      extra:
+        annotations:
+          designated_member_representative: Steve McEachern
+          executive_board_member: Steve McEachern (elected)
+          scientific_board_member: Darren Bell (elected)
+    - name: University of Minnesota, Minnesota Population Center
+      homepage_url: http://www.pop.umn.edu/
+      logo: umn-mpc.png
+      description: null
+      extra:
+        annotations:
+          designated_member_representative: Wendy Thomas
+          scientific_board_member: Wendy Thomas (ex officio)
+    - name: University of Toronto Scholars Portal
+      homepage_url: http://spotdocs.scholarsportal.info/display/sp/Services
+      logo: scholars-portal.png
+      description: null
+      extra:
+        annotations:
+          designated_member_representative: Amber Leahey
+          scientific_board_member: Amber Leahey (elected)
+    - name: University of Wisconsin Institute on Aging – MIDUS study
+      homepage_url: http://midus.wisc.edu/
+      logo: midus.png
+      description: null
   - name: Associate Members
-    items: []
+    items:
+    - name: Aristotle Cloud Services
+      homepage_url: https://www.aristotlemetadata.com/
+      logo: aristotle.png
+      description: null
+      extra:
+        annotations:
+          member_representative: Sam Spencer
+    - name: Australian Bureau of Statistics (ABS)
+      homepage_url: http://www.abs.gov.au/websitedbs/D3310114.nsf/home/home?opendocument
+      logo: abs.png
+      description: null
+      extra:
+        annotations:
+          member_representative: Alistair Hamilton
+    - name: Australian Data Archive (ADA)
+      homepage_url: http://www.ada.edu.au/
+      logo: ada.png
+      description: null
+      extra:
+        annotations:
+          member_representative: Ryan Perry
+    - name: Colectica
+      homepage_url: http://www.colectica.com/
+      logo: colectica.png
+      description: null
+      extra:
+        annotations:
+          member_representative: Dan Smith
+          scientific_board_member: Dan Smith (elected)
+    - name: CONSTANCES Cohort
+      homepage_url: http://doi.org/10.13143/inserm_constances
+      logo: constances.png
+      description: null
+      extra:
+        annotations:
+          member_representative: Antoine Duclos
+    - name: Cornell Center for Social Sciences
+      homepage_url: https://socialsciences.cornell.edu/
+      logo: cornell-ccss.png
+      description: null
+      extra:
+        annotations:
+          member_representative: Jonathan Bohan
+    - name: Data Unchained, LLC
+      homepage_url: https://www.linkedin.com/in/dan-gillman-bb3692
+      logo: data-unchained.png
+      description: null
+      extra:
+        annotations:
+          member_representative: Dan Gillman
+    - name: France Cohortes/FReSH
+      homepage_url: https://francecohortes.org/
+      logo: france-cohortes.png
+      description: null
+      extra:
+        annotations:
+          member_representative: Grégoire Rey
+    - name: French Institute for Demographic Studies (INED)
+      homepage_url: https://www.ined.fr/
+      logo: ined.png
+      description: null
+      extra:
+        annotations:
+          member_representative: Thibaud Ritzenthaler
+    - name: HiveWorx
+      homepage_url: https://hive-worx.com/
+      logo: hiveworx.png
+      description: null
+      extra:
+        annotations:
+          member_representative: Mubashar Ghafoor
+    - name: Instituto Superior Tecnológico Japón
+      homepage_url: https://itsjapon.edu.ec/
+      logo: its-japon.png
+      description: null
+      extra:
+        annotations:
+          member_representative: María Cristina Aguas Ortiz
+    - name: Instituto Superior Tecnológico Sucre
+      homepage_url: http://www.tecnologicosucre.edu.ec
+      logo: its-sucre.png
+      description: null
+      extra:
+        annotations:
+          member_representative: Francisco Felipe Soria Suárez
+    - name: Making Sense
+      homepage_url: https://making-sense.info/
+      logo: making-sense.png
+      description: null
+      extra:
+        annotations:
+          member_representative: Franck Cotton
+    - name: mStats DS – Data Science and Statistical Software
+      homepage_url: http://www.mstats-ds.com/
+      logo: mstats-ds.png
+      description: null
+      extra:
+        annotations:
+          member_representative: Marcel Hebing
+    - name: Nooro Online Research
+      homepage_url: https://nooro.com/
+      logo: nooro.png
+      description: null
+      extra:
+        annotations:
+          member_representative: Shane McChesney
+    - name: Open Data Foundation
+      homepage_url: http://www.opendatafoundation.org/
+      logo: open-data-foundation.png
+      description: null
+      extra:
+        annotations:
+          member_representative: Pascal Heus
+    - name: Qualiservice
+      homepage_url: https://www.qualiservice.org/
+      logo: qualiservice.png
+      description: null
+      extra:
+        annotations:
+          member_representative: Noemi Betancort Cabrera
+          scientific_board_member: Noemi Betancort Cabrera (elected)
+    - name: Roper Center for Public Opinion Research
+      homepage_url: https://ropercenter.cornell.edu/
+      logo: roper-center.png
+      description: null
+      extra:
+        annotations:
+          member_representative: Jessica Riggs
+    - name: Statistics Canada
+      homepage_url: https://www.statcan.gc.ca/eng/
+      logo: statcan.png
+      description: null
+      extra:
+        annotations:
+          member_representative: Flavio Rizzolo
+    - name: Statistics Estonia
+      homepage_url: http://www.stat.ee/en
+      logo: statistics-estonia.png
+      description: null
+      extra:
+        annotations:
+          member_representative: Kaia Kulla
+    - name: Statistics New Zealand
+      homepage_url: http://www.stats.govt.nz/
+      logo: stats-nz.png
+      description: null
+      extra:
+        annotations:
+          member_representative: Carmen Lammerding
+    - name: Survey Research Operations, University of Michigan
+      homepage_url: http://www.src.isr.umich.edu/
+      logo: umich-sro.png
+      description: null
+      extra:
+        annotations:
+          member_representative: Kelly Chatain
+    - name: TBA21 Group
+      homepage_url: http://web.tba21.hu/
+      logo: tba21.png
+      description: null
+      extra:
+        annotations:
+          member_representative: David Schiller
+    - name: U.S. Bureau of Labor Statistics
+      homepage_url: http://www.bls.gov/
+      logo: bls.png
+      description: null
+    - name: University of Kansas, Institute for Policy and Social Research (IPSR)
+      homepage_url: http://www.ipsr.ku.edu/
+      logo: ku-ipsr.png
+      description: null
+      extra:
+        annotations:
+          member_representative: Larry Hoyle
+    - name: Wisconsin Longitudinal Study
+      homepage_url: https://researchers.wls.wisc.edu/
+      logo: wls.png
+      description: null
+      extra:
+        annotations:
+          member_representative: Barry Radler
+    - name: World Bank, Development Data Group (DECDG)
+      homepage_url: https://www.worldbank.org/en/about/unit/unit-dec/dev
+      logo: worldbank-decdg.png
+      description: null
+      extra:
+        annotations:
+          member_representative: Olivier Dupriez
 - name: DDI Authoring & Design
   subcategories:
   - name: Questionnaire Editors

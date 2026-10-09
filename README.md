@@ -104,7 +104,7 @@ One-time repository setup: in **Settings → Pages**, set **Source** to
 
 ## About
 
-- **Author:** Markus Tuominen (FSD)
+- **Author:** Markus Tuominen (FSD), Oliver Hopt (GESIS)
 - **Event:** EDDI25 Hackathon
 - **Tooling:** [Landscape2](https://github.com/cncf/landscape2)
 

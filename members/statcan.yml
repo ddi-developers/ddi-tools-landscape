@@ -1,0 +1,10 @@
+category: DDI Members
+subcategory: Associate Members
+order: 19
+name: Statistics Canada
+homepage_url: https://www.statcan.gc.ca/eng/
+logo: statcan.png
+description: 
+extra:
+  annotations:
+    member_representative: Flavio Rizzolo
