@@ -59,11 +59,13 @@ If you have cloned this repository and want to run the landscape locally:
 
 ## Editing tool data
 
-Tool entries are maintained as one YAML file per tool under `tools/`, rather
-than directly in `data.yml`. `data.yml` is generated and should not be edited
-by hand.
+Entries are maintained as one YAML file per item under `tools/`, `members/`,
+`examples/` and `profiles/`, rather than directly in `data.yml`. `data.yml` and
+`guide.yml` are generated and should not be edited by hand.
 
 - `structure.yml` lists the categories and subcategories, in display order.
+  An optional `guide` field on a category or subcategory is used as its
+  introduction text in `guide.yml`.
 - `tools/<tool>.yml` holds one tool's data: `category`, `subcategory`, and
   `order` (position within the subcategory), followed by the usual landscape2
   item fields (`name`, `homepage_url`, `description`, `extra`, etc.). A tool
@@ -72,7 +74,7 @@ by hand.
 
 To add, remove, or edit a tool, change the relevant file(s) under `tools/`
 (and `structure.yml` if you're adding a new category/subcategory), then
-regenerate `data.yml`:
+regenerate `data.yml` and `guide.yml`:
 
     python3 scripts/build_data.py
 
@@ -83,7 +85,7 @@ step afterwards to rebuild the site.
 
 `.github/workflows/deploy-pages.yml` rebuilds and publishes the landscape
 automatically on every push to `main` (and can be run manually via the
-Actions tab). It regenerates `data.yml` from `tools/*.yml`, runs
+Actions tab). It regenerates `data.yml` and `guide.yml`, runs
 `landscape2 build`, and deploys the result with GitHub's Pages actions.
 
 One-time repository setup: in **Settings → Pages**, set **Source** to
@@ -96,7 +98,7 @@ One-time repository setup: in **Settings → Pages**, set **Source** to
 - Information under `annotations` is not directly visible in the landscape UI, but is preserved for external tools or future use.
 - In some cases, multiple pieces of information were combined under the same `summary_<key>` field, as there is no perfect equivalency to the original Excel sheet.
 - Some keys (e.g., `summary_release_rate`) are used for related but not exact purposes (such as listing supported DDI versions instead of release rate) to make more information visible in landscape cards.
-- Guide currently contains just the full description of each tool.
+- The guide is generated: an optional introduction per category/subcategory from `structure.yml`, plus each item's name, link and description.
 - Many pictures are missing.
 - Copilot Chat was leveraged to create the initial versions of files from the original Excel sheet.
 

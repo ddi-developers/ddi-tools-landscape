@@ -1,5 +1,8 @@
 # Ordered list of categories and subcategories for the landscape.
-# Items themselves live in tools/*.yml; see scripts/build_data.py.
+# Items themselves live in tools/, members/, examples/ and profiles/ (*.yml);
+# see scripts/build_data.py.
+# The optional `guide` field on a category or subcategory is its introduction
+# text in the generated guide.yml.
 categories:
 - name: DDI Members
   subcategories:
@@ -9,25 +12,33 @@ categories:
 - name: DDI Authoring & Design
   subcategories:
   - name: Questionnaire Editors
+    guide: Tools focused on authoring and editing questionnaire metadata, typically in DDI-Lifecycle. These applications help teams document routing, mappings, question–variable relationships, and export DDI-compliant artifacts for reuse across the DDI ecosystem.
   - name: Metadata Editors
+    guide: General-purpose DDI editors for describing studies, variables, and data structures. These tools often support DDI 2.x (Codebook) and/or DDI 3.x (Lifecycle) authoring workflows.
   - name: Data Documentation
 - name: Survey & Data Collection Tools
   subcategories:
   - name: Questionnaire Design
+    guide: Visual tooling to design questionnaire specifications and generate outputs across multiple modes (web, paper, interviewer). These tools frequently integrate with repositories or generators to produce DDI, PDF, and runtime artifacts.
   - name: Questionnaire Generation
   - name: Data Collection & Entry
 - name: DDI Transformation & Processing
   subcategories:
   - name: Converters
+    guide: Tools for converting datasets and metadata between DDI and other formats, supporting interoperability and migration across platforms.
   - name: Transformation
+    guide: Tools for transforming DDI metadata into other formats, such as HTML, RDF, or DataCite, using XSLT or similar technologies.
 - name: DDI Repositories & Discovery
+  guide: Repositories and search engines for DDI metadata, enabling indexing, discovery, and access to data documentation and survey content.
   subcategories:
   - name: Repositories & Catalogues
   - name: Search & Indexing
   - name: Identifier Resolution
+    guide: Services and libraries for resolving DDI agency identifiers and related metadata, supporting interoperability and persistent referencing.
 - name: Statistical & Research Data Tools
   subcategories:
   - name: Data Protection
+    guide: Tools for anonymisation and protection of statistical data, supporting disclosure control and privacy for DDI-compliant datasets.
   - name: Data Analysis & Preparation
 - name: DDI Profiles
   subcategories:
@@ -70,4 +81,5 @@ categories:
 - name: DDI Resources & Collections
   subcategories:
   - name: Tool Collections
+    guide: Collections of tools, utilities, and recommended elements for DDI, including bundles and reference implementations.
   - name: Specification Resources
