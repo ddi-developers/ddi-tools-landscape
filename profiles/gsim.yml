@@ -1,0 +1,18 @@
+category: DDI Profiles
+subcategory: DDI Lifecycle 3.2
+order: 2
+name: GSIM DDI Profiles
+homepage_url: https://statswiki.unece.org/spaces/gsim/pages/97356545/DDI+Profiles
+logo: gsim.png
+description: BTO Profile - The first profile is "Basic Technical Objects" (BTO). There are a small set of technical objects that are used in DDI to support identification, referencing, dates, external controlled vocabularies, string content, and the basic features of ISO/IEC 11179-5 (Name, Label, Description). This profile provides guidance for the best practice usage of these technical objects to support interoperability. In particular it identifies those objects which should be considered interoperable and applied in a consistent manner, and those that contain primarily local information.
+  Variable Profile-  This profile covers those DDI objects required to support the Variable, Population and Concept objects in GSIM.
+  Represented Variable Profile - This profile covers those DDI objects required to support the Represented Variable, Enumerated Value Domain, Described Value Domain and Unit of Measure objects in GSIM.
+  Questionnaire Profile - This is the definition of a 3.2 DDI profile for business questionnaire - test version. This profile includes all the objects, schemes and 'packaging' information needed to create a complete questionnaire, including Questions, Question Groups and Blocks, Statements, Interviewer Instructions, Controls and Instrument.
+  Codelist Profile - This profile covers those DDI objects required to support Code Lists and Category Sets in GSIM. 
+extra:
+  summary_tags: DDI Profile
+  summary_use_case: Recommended elements for DDI 3.2 to support GSIM requirements.
+  summary_personas: Data managers
+  annotations:
+    authors: Gerald Muriel
+    ddi_standards: DDI Lifecycle 3.2

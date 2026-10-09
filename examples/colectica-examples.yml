@@ -1,0 +1,16 @@
+category: DDI Examples
+subcategory: DDI Lifecycle 3.1
+order: 4
+name: Colectica DDI Examples
+homepage_url: https://github.com/Colectica/ddi-examples/tree/master
+logo: colectica.png
+description: The Data Documentation Initiative (DDI) is an effort to create an international standard for describing social science and statistical data. The DDI 3 metadata specification covers the entire data lifecycle, and Colectica allows a user to automatically capture this valuable information automatically.
+repo_url: https://github.com/Colectica/ddi-examples/tree/master
+extra:
+  summary_tags: DDI Examples
+  summary_personas: Data managers, Developers
+  annotations:
+    institution_name: Colectica
+    institution_url: http://www.colectica.com/
+    authors: Jeremy Iverson
+    ddi_standards: DDI Lifecycle 3.1

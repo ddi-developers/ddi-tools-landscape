@@ -1,6 +1,11 @@
 # Ordered list of categories and subcategories for the landscape.
 # Items themselves live in tools/*.yml; see scripts/build_data.py.
 categories:
+- name: DDI Members
+  subcategories:
+  - name: Premium Members
+  - name: Full Members
+  - name: Associate Members
 - name: DDI Authoring & Design
   subcategories:
   - name: Questionnaire Editors
@@ -27,6 +32,28 @@ categories:
 - name: DDI Profiles
   subcategories:
   - name: Profile Tooling
+  - name: DDI Codebook 2.0
+  - name: DDI Codebook 2.1
+  - name: DDI Codebook 2.5
+  - name: DDI Codebook 2.6
+  - name: DDI Lifecycle 3.0
+  - name: DDI Lifecycle 3.1
+  - name: DDI Lifecycle 3.2
+  - name: DDI Lifecycle 3.3
+  - name: DDI-CDI
+- name: DDI Examples
+  subcategories:
+  - name: DDI Codebook 2.0
+  - name: DDI Codebook 2.1
+  - name: DDI Codebook 2.5
+  - name: DDI Codebook 2.6
+  - name: DDI Lifecycle 3.0
+  - name: DDI Lifecycle 3.1
+  - name: DDI Lifecycle 3.2
+  - name: DDI Lifecycle 3.3
+  - name: DDI-CDI
+  - name: SDTL
+  - name: XKOS
 - name: DDI Standards
   subcategories:
   - name: DDI Codebook 2.0
