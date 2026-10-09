@@ -4,7 +4,7 @@ order: 1
 name: GESIS - Leibniz Institute for the Social Sciences
 homepage_url: https://www.gesis.org/
 logo: gesis.svg
-description: 
+description: GESIS is one of the world’s leading infrastructure institutions for the social sciences and supports researchers with expertise and infrastructure services at all levels of their research projects. We help to ensure that socially relevant questions can be answered on the basis of reliable data, the latest scientific methods, and research information. We help with study planning and data collection, provide high-quality research data, support with data processing and analysis, and finally with archiving the data.
 extra:
   annotations:
     designated_member_representative: Wolfgang Zenk-Möltgen

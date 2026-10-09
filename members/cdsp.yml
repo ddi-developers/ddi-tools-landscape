@@ -4,7 +4,7 @@ order: 1
 name: Center for Socio-Political Data (CDSP), Sciences Po
 homepage_url: https://cdsp.sciences-po.fr/fr/
 logo: cnrs.png
-description: 
+description: Founded in 2005, the Centre for Sociopolitical Data provides a range of data-related infrastructures and services for the social sciences.
 extra:
   annotations:
     designated_member_representative: Emiliano Grossman
