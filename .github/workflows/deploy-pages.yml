@@ -35,6 +35,34 @@ jobs:
       - name: Regenerate data.yml and guide.yml
         run: python3 scripts/build_data.py
 
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      # GitHub Pages serves project sites from a subpath
+      # (e.g. https://<org>.github.io/<repo>/), so set url and base_path
+      # in a CI-only copy of the settings. settings.yml stays usable for
+      # local builds served from the root.
+      - name: Set url and base_path for GitHub Pages
+        env:
+          PAGES_BASE_URL: ${{ steps.pages.outputs.base_url }}
+          PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+        run: |
+          python3 - <<'EOF'
+          import os, yaml
+          with open("settings.yml") as f:
+              settings = yaml.safe_load(f)
+          settings["url"] = os.environ["PAGES_BASE_URL"].rstrip("/")
+          base_path = os.environ["PAGES_BASE_PATH"].rstrip("/")
+          if base_path:
+              settings["base_path"] = base_path
+          else:
+              settings.pop("base_path", None)
+          with open("settings.pages.yml", "w") as f:
+              yaml.safe_dump(settings, f, sort_keys=False, allow_unicode=True)
+          print(f"url={settings['url']} base_path={settings.get('base_path', '')}")
+          EOF
+
       - name: Install landscape2
         run: |
           curl --proto '=https' --tlsv1.2 -LsSf \
@@ -45,7 +73,7 @@ jobs:
         run: |
           landscape2 build \
             --data-file data.yml \
-            --settings-file settings.yml \
+            --settings-file settings.pages.yml \
             --guide-file guide.yml \
             --games-file games.yml \
             --logos-path logos \
