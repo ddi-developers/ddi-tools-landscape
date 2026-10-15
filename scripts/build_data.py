@@ -63,6 +63,37 @@ def _block(*paragraphs) -> _LiteralStr:
     return _LiteralStr("\n\n".join(p for p in paragraphs if p) + "\n")
 
 
+# Words always written in full capitals in annotation labels.
+UPPERCASE_WORDS = {"api", "ddi", "doi", "id", "isbn", "orcid", "uri", "url"}
+
+
+def _annotation_label(key: str) -> str:
+    """'institution_url' -> 'Institution URL'."""
+    return " ".join(
+        word.upper() if word.lower() in UPPERCASE_WORDS else word.capitalize()
+        for word in key.split("_")
+        if word
+    )
+
+
+def _annotation_value(value) -> str:
+    if isinstance(value, (list, tuple)):
+        return ", ".join(_one_line(v) for v in value if v)
+    return _one_line(value)
+
+
+def _description_with_annotations(item: dict) -> str:
+    """Item description followed by one 'Label: value' paragraph per
+    extra.annotations entry."""
+    annotations = (item.get("extra") or {}).get("annotations") or {}
+    paragraphs = [_one_line(item.get("description"))]
+    for key, value in annotations.items():
+        value = _annotation_value(value)
+        if value:
+            paragraphs.append(f"{_annotation_label(key)}: {value}")
+    return "\n\n".join(p for p in paragraphs if p)
+
+
 def _guide_item(item: dict) -> str:
     name = item["name"]
     if item.get("homepage_url"):
@@ -148,6 +179,21 @@ def main() -> None:
     if unknown:
         sys.exit(f"Item files reference unknown category/subcategory pairs: {unknown}")
 
+    # Built before the annotations are merged into the descriptions, so the
+    # guide keeps the plain descriptions.
+    guide = build_guide(structure, categories)
+
+    for cat_out in categories:
+        for sub_out in cat_out["subcategories"]:
+            for item in sub_out["items"]:
+                description = _description_with_annotations(item)
+                if description:
+                    item["description"] = (
+                        _LiteralStr(description + "\n")
+                        if "\n" in description
+                        else description
+                    )
+
     with (ROOT / "data.yml").open("w") as f:
         f.write(HEADER + "\n")
         yaml.dump(
@@ -162,7 +208,7 @@ def main() -> None:
     with (ROOT / "guide.yml").open("w") as f:
         f.write(GUIDE_HEADER + "\n")
         yaml.dump(
-            build_guide(structure, categories),
+            guide,
             f,
             sort_keys=False,
             default_flow_style=False,

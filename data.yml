@@ -19,13 +19,12 @@ categories:
     - name: GESIS - Leibniz Institute for the Social Sciences
       homepage_url: https://www.gesis.org/
       logo: gesis.svg
-      description: GESIS is one of the world’s leading infrastructure institutions for the
-        social sciences and supports researchers with expertise and infrastructure services
-        at all levels of their research projects. We help to ensure that socially relevant
-        questions can be answered on the basis of reliable data, the latest scientific methods,
-        and research information. We help with study planning and data collection, provide
-        high-quality research data, support with data processing and analysis, and finally
-        with archiving the data.
+      description: |
+        GESIS is one of the world’s leading infrastructure institutions for the social sciences and supports researchers with expertise and infrastructure services at all levels of their research projects. We help to ensure that socially relevant questions can be answered on the basis of reliable data, the latest scientific methods, and research information. We help with study planning and data collection, provide high-quality research data, support with data processing and analysis, and finally with archiving the data.
+
+        Designated Member Representative: Wolfgang Zenk-Möltgen
+
+        Scientific Board Member: Wolfgang Zenk-Möltgen
       extra:
         annotations:
           designated_member_representative: Wolfgang Zenk-Möltgen
@@ -33,13 +32,16 @@ categories:
     - name: Inter-university Consortium for Political and Social Research (ICPSR)
       homepage_url: https://www.icpsr.umich.edu/
       logo: icpsr.png
-      description: ICPSR is an international consortium of 800+ academic and research bodies.
-        We provide leadership and training in data access, curation, and analytical methods
-        for social science. Collaborating with funders, including federal US agencies, ICPSR
-        develops themed data collections and projects. Our research delves into digital curation
-        challenges and policy initiatives. We established the Summer Program in Quantitative
-        Methods in 1963, educating tens of thousands of researchers in introductory to advanced
-        training in statistics, data analysis, and quantitative research methods.
+      description: |
+        ICPSR is an international consortium of 800+ academic and research bodies. We provide leadership and training in data access, curation, and analytical methods for social science. Collaborating with funders, including federal US agencies, ICPSR develops themed data collections and projects. Our research delves into digital curation challenges and policy initiatives. We established the Summer Program in Quantitative Methods in 1963, educating tens of thousands of researchers in introductory to advanced training in statistics, data analysis, and quantitative research methods.
+
+        Designated Member Representative: Sanda Ionescu
+
+        Executive Board Member: Margaret Levenstein, Jared Lyle (ex officio)
+
+        Scientific Board Member: Jared Lyle (ex officio)
+
+        Executive Director: Jared Lyle
       extra:
         annotations:
           designated_member_representative: Sanda Ionescu
@@ -51,15 +53,19 @@ categories:
     - name: Blaise - Statistics Netherlands
       homepage_url: http://blaise.com/
       logo: blaise.png
-      description: null
+      description: 'Designated Member Representative: Harry Wijnhoven'
       extra:
         annotations:
           designated_member_representative: Harry Wijnhoven
     - name: Center for Socio-Political Data (CDSP), Sciences Po
       homepage_url: https://cdsp.sciences-po.fr/fr/
       logo: cnrs.png
-      description: Founded in 2005, the Centre for Sociopolitical Data provides a range of
-        data-related infrastructures and services for the social sciences.
+      description: |
+        Founded in 2005, the Centre for Sociopolitical Data provides a range of data-related infrastructures and services for the social sciences.
+
+        Designated Member Representative: Emiliano Grossman
+
+        Executive Board Member: Alina Danciu
       extra:
         annotations:
           designated_member_representative: Emiliano Grossman
@@ -67,14 +73,17 @@ categories:
     - name: Central Statistics Office (Ireland)
       homepage_url: https://www.cso.ie/en/
       logo: cso-ireland.png
-      description: null
+      description: 'Designated Member Representative: Ken Moore'
       extra:
         annotations:
           designated_member_representative: Ken Moore
     - name: CLOSER, UCL Institute of Education
       homepage_url: https://www.closer.ac.uk/
       logo: closer.png
-      description: null
+      description: |
+        Designated Member Representative: Hayley Mills
+
+        Executive Board Member: Jon Johnson (elected)
       extra:
         annotations:
           designated_member_representative: Hayley Mills
@@ -82,7 +91,10 @@ categories:
     - name: CODATA, Committee on Data of the International Science Council
       homepage_url: https://codata.org/
       logo: codata.png
-      description: null
+      description: |
+        Designated Member Representative: Simon Hodson
+
+        Scientific Board Member: Simon Hodson (elected)
       extra:
         annotations:
           designated_member_representative: Simon Hodson
@@ -90,7 +102,10 @@ categories:
     - name: Consortium of Social Science Data Archives (CESSDA)
       homepage_url: http://cessda.net/
       logo: cessda.png
-      description: null
+      description: |
+        Designated Member Representative: Bonnie Wolff-Boenisch
+
+        Executive Board Member: Bonnie Wolff-Boenisch (elected)
       extra:
         annotations:
           designated_member_representative: Bonnie Wolff-Boenisch
@@ -98,7 +113,10 @@ categories:
     - name: Finnish Social Science Data Archive
       homepage_url: https://www.fsd.tuni.fi/en/
       logo: fsd.png
-      description: null
+      description: |
+        Designated Member Representative: Katja Moilanen
+
+        Executive Board Member: Katja Moilanen (elected)
       extra:
         annotations:
           designated_member_representative: Katja Moilanen
@@ -106,21 +124,21 @@ categories:
     - name: German Socio-Economic Panel Study (SOEP)
       homepage_url: http://www.diw.de/deutsch/soep/29012.html
       logo: soep.png
-      description: null
+      description: 'Designated Member Representative: Knut Wenzig'
       extra:
         annotations:
           designated_member_representative: Knut Wenzig
     - name: National Institute of Statistics and Economic Studies (INSEE)
       homepage_url: http://www.insee.fr/en/
       logo: insee.png
-      description: null
+      description: 'Designated Member Representative: Frédéric Minodier'
       extra:
         annotations:
           designated_member_representative: Frédéric Minodier
     - name: Progedo
       homepage_url: https://www.progedo.fr/
       logo: progedo.png
-      description: null
+      description: 'Designated Member Representative: Nicolas Sauger'
       extra:
         annotations:
           designated_member_representative: Nicolas Sauger
@@ -128,14 +146,17 @@ categories:
         Research (IAB)
       homepage_url: https://fdz.iab.de/en/startseite-en/
       logo: iab-fdz.png
-      description: null
+      description: 'Designated Member Representative: Matthias Umkehrer'
       extra:
         annotations:
           designated_member_representative: Matthias Umkehrer
     - name: Sikt - Norwegian Agency for Shared Services in Education and Research
       homepage_url: https://sikt.no/en/
       logo: sikt.png
-      description: null
+      description: |
+        Designated Member Representative: Vigdis Kvalheim
+
+        Scientific Board Member: Hilde Orten (elected)
       extra:
         annotations:
           designated_member_representative: Vigdis Kvalheim
@@ -143,14 +164,17 @@ categories:
     - name: Stanford University
       homepage_url: http://www.stanford.edu/
       logo: stanford.png
-      description: null
+      description: 'Designated Member Representative: Ron Nakao'
       extra:
         annotations:
           designated_member_representative: Ron Nakao
     - name: Swedish National Data Service (SND)
       homepage_url: http://snd.gu.se/
       logo: snd.png
-      description: null
+      description: |
+        Designated Member Representative: André Jernung
+
+        Executive Board Member: Johan Fihn Marberg (elected)
       extra:
         annotations:
           designated_member_representative: André Jernung
@@ -158,28 +182,33 @@ categories:
     - name: Swiss Foundation for Research in Social Sciences (FORS)
       homepage_url: http://www2.unil.ch/fors/?lang=en
       logo: fors.png
-      description: null
+      description: 'Designated Member Representative: Meret Hildebrandt'
       extra:
         annotations:
           designated_member_representative: Meret Hildebrandt
     - name: University of Alberta, Canada
       homepage_url: http://www.ualberta.ca/
       logo: ualberta.png
-      description: null
+      description: 'Designated Member Representative: John Huck'
       extra:
         annotations:
           designated_member_representative: John Huck
     - name: University of Applied Science of the Grisons (FHGR)
       homepage_url: http://fhgr.ch/
       logo: fhgr.png
-      description: null
+      description: 'Designated Member Representative: David Schiller'
       extra:
         annotations:
           designated_member_representative: David Schiller
     - name: University of Essex
       homepage_url: http://www.essex.ac.uk/
       logo: essex.png
-      description: null
+      description: |
+        Designated Member Representative: Steve McEachern
+
+        Executive Board Member: Steve McEachern (elected)
+
+        Scientific Board Member: Darren Bell (elected)
       extra:
         annotations:
           designated_member_representative: Steve McEachern
@@ -188,7 +217,10 @@ categories:
     - name: University of Minnesota, Minnesota Population Center
       homepage_url: http://www.pop.umn.edu/
       logo: umn-mpc.png
-      description: null
+      description: |
+        Designated Member Representative: Wendy Thomas
+
+        Scientific Board Member: Wendy Thomas (ex officio)
       extra:
         annotations:
           designated_member_representative: Wendy Thomas
@@ -196,7 +228,10 @@ categories:
     - name: University of Toronto Scholars Portal
       homepage_url: http://spotdocs.scholarsportal.info/display/sp/Services
       logo: scholars-portal.png
-      description: null
+      description: |
+        Designated Member Representative: Amber Leahey
+
+        Scientific Board Member: Amber Leahey (elected)
       extra:
         annotations:
           designated_member_representative: Amber Leahey
@@ -210,28 +245,31 @@ categories:
     - name: Aristotle Cloud Services
       homepage_url: https://www.aristotlemetadata.com/
       logo: aristotle.png
-      description: null
+      description: 'Member Representative: Sam Spencer'
       extra:
         annotations:
           member_representative: Sam Spencer
     - name: Australian Bureau of Statistics (ABS)
       homepage_url: http://www.abs.gov.au/websitedbs/D3310114.nsf/home/home?opendocument
       logo: abs.png
-      description: null
+      description: 'Member Representative: Alistair Hamilton'
       extra:
         annotations:
           member_representative: Alistair Hamilton
     - name: Australian Data Archive (ADA)
       homepage_url: http://www.ada.edu.au/
       logo: ada.png
-      description: null
+      description: 'Member Representative: Ryan Perry'
       extra:
         annotations:
           member_representative: Ryan Perry
     - name: Colectica
       homepage_url: http://www.colectica.com/
       logo: colectica.png
-      description: null
+      description: |
+        Member Representative: Dan Smith
+
+        Scientific Board Member: Dan Smith (elected)
       extra:
         annotations:
           member_representative: Dan Smith
@@ -239,91 +277,94 @@ categories:
     - name: CONSTANCES Cohort
       homepage_url: http://doi.org/10.13143/inserm_constances
       logo: constances.png
-      description: null
+      description: 'Member Representative: Antoine Duclos'
       extra:
         annotations:
           member_representative: Antoine Duclos
     - name: Cornell Center for Social Sciences
       homepage_url: https://socialsciences.cornell.edu/
       logo: cornell-ccss.png
-      description: null
+      description: 'Member Representative: Jonathan Bohan'
       extra:
         annotations:
           member_representative: Jonathan Bohan
     - name: Data Unchained, LLC
       homepage_url: https://www.linkedin.com/in/dan-gillman-bb3692
       logo: data-unchained.png
-      description: null
+      description: 'Member Representative: Dan Gillman'
       extra:
         annotations:
           member_representative: Dan Gillman
     - name: France Cohortes/FReSH
       homepage_url: https://francecohortes.org/
       logo: france-cohortes.png
-      description: null
+      description: 'Member Representative: Grégoire Rey'
       extra:
         annotations:
           member_representative: Grégoire Rey
     - name: French Institute for Demographic Studies (INED)
       homepage_url: https://www.ined.fr/
       logo: ined.png
-      description: null
+      description: 'Member Representative: Thibaud Ritzenthaler'
       extra:
         annotations:
           member_representative: Thibaud Ritzenthaler
     - name: HiveWorx
       homepage_url: https://hive-worx.com/
       logo: hiveworx.png
-      description: null
+      description: 'Member Representative: Mubashar Ghafoor'
       extra:
         annotations:
           member_representative: Mubashar Ghafoor
     - name: Instituto Superior Tecnológico Japón
       homepage_url: https://itsjapon.edu.ec/
       logo: its-japon.png
-      description: null
+      description: 'Member Representative: María Cristina Aguas Ortiz'
       extra:
         annotations:
           member_representative: María Cristina Aguas Ortiz
     - name: Instituto Superior Tecnológico Sucre
       homepage_url: http://www.tecnologicosucre.edu.ec
       logo: its-sucre.png
-      description: null
+      description: 'Member Representative: Francisco Felipe Soria Suárez'
       extra:
         annotations:
           member_representative: Francisco Felipe Soria Suárez
     - name: Making Sense
       homepage_url: https://making-sense.info/
       logo: making-sense.png
-      description: null
+      description: 'Member Representative: Franck Cotton'
       extra:
         annotations:
           member_representative: Franck Cotton
     - name: mStats DS – Data Science and Statistical Software
       homepage_url: http://www.mstats-ds.com/
       logo: mstats-ds.png
-      description: null
+      description: 'Member Representative: Marcel Hebing'
       extra:
         annotations:
           member_representative: Marcel Hebing
     - name: Nooro Online Research
       homepage_url: https://nooro.com/
       logo: nooro.png
-      description: null
+      description: 'Member Representative: Shane McChesney'
       extra:
         annotations:
           member_representative: Shane McChesney
     - name: Open Data Foundation
       homepage_url: http://www.opendatafoundation.org/
       logo: open-data-foundation.png
-      description: null
+      description: 'Member Representative: Pascal Heus'
       extra:
         annotations:
           member_representative: Pascal Heus
     - name: Qualiservice
       homepage_url: https://www.qualiservice.org/
       logo: qualiservice.png
-      description: null
+      description: |
+        Member Representative: Noemi Betancort Cabrera
+
+        Scientific Board Member: Noemi Betancort Cabrera (elected)
       extra:
         annotations:
           member_representative: Noemi Betancort Cabrera
@@ -331,42 +372,42 @@ categories:
     - name: Roper Center for Public Opinion Research
       homepage_url: https://ropercenter.cornell.edu/
       logo: roper-center.png
-      description: null
+      description: 'Member Representative: Jessica Riggs'
       extra:
         annotations:
           member_representative: Jessica Riggs
     - name: Statistics Canada
       homepage_url: https://www.statcan.gc.ca/eng/
       logo: statcan.png
-      description: null
+      description: 'Member Representative: Flavio Rizzolo'
       extra:
         annotations:
           member_representative: Flavio Rizzolo
     - name: Statistics Estonia
       homepage_url: http://www.stat.ee/en
       logo: statistics-estonia.png
-      description: null
+      description: 'Member Representative: Kaia Kulla'
       extra:
         annotations:
           member_representative: Kaia Kulla
     - name: Statistics New Zealand
       homepage_url: http://www.stats.govt.nz/
       logo: stats-nz.png
-      description: null
+      description: 'Member Representative: Carmen Lammerding'
       extra:
         annotations:
           member_representative: Carmen Lammerding
     - name: Survey Research Operations, University of Michigan
       homepage_url: http://www.src.isr.umich.edu/
       logo: umich-sro.png
-      description: null
+      description: 'Member Representative: Kelly Chatain'
       extra:
         annotations:
           member_representative: Kelly Chatain
     - name: TBA21 Group
       homepage_url: http://web.tba21.hu/
       logo: tba21.png
-      description: null
+      description: 'Member Representative: David Schiller'
       extra:
         annotations:
           member_representative: David Schiller
@@ -377,21 +418,21 @@ categories:
     - name: University of Kansas, Institute for Policy and Social Research (IPSR)
       homepage_url: http://www.ipsr.ku.edu/
       logo: ku-ipsr.png
-      description: null
+      description: 'Member Representative: Larry Hoyle'
       extra:
         annotations:
           member_representative: Larry Hoyle
     - name: Wisconsin Longitudinal Study
       homepage_url: https://researchers.wls.wisc.edu/
       logo: wls.png
-      description: null
+      description: 'Member Representative: Barry Radler'
       extra:
         annotations:
           member_representative: Barry Radler
     - name: World Bank, Development Data Group (DECDG)
       homepage_url: https://www.worldbank.org/en/about/unit/unit-dec/dev
       logo: worldbank-decdg.png
-      description: null
+      description: 'Member Representative: Olivier Dupriez'
       extra:
         annotations:
           member_representative: Olivier Dupriez
@@ -402,8 +443,20 @@ categories:
     - name: Archivist
       homepage_url: https://github.com/CLOSER-Cohorts/archivist
       logo: archivist.png
-      description: Easy-to-use editor for documenting questionnaires, routing, and mappings;
-        exports DDI-Lifecycle.
+      description: |
+        Easy-to-use editor for documenting questionnaires, routing, and mappings; exports DDI-Lifecycle.
+
+        Availability: In production
+
+        Institution Name: CLOSER
+
+        Institution URL: https://www.closer.ac.uk
+
+        Authors: Will Poynter, Charles DeBarros, Simon Reed
+
+        Contact Email: closer@ucl.ac.uk
+
+        DDI Standards: DDI Lifecycle 3.2
       repo_url: https://github.com/CLOSER-Cohorts/archivist
       license: Open Source
       extra:
@@ -427,7 +480,20 @@ categories:
     - name: DDI 3.0 Editor-Lite
       homepage_url: http://www.ddialliance.org/hubfs/sites/default/files/ddi3/editor-lite-3/DDI_v2dot2.htm
       logo: ddi3-editor-lite.svg
-      description: Authoring tool produced by ICPSR that supports production of DDI 3.0 instances.
+      description: |
+        Authoring tool produced by ICPSR that supports production of DDI 3.0 instances.
+
+        Availability: No longer developed, but still available
+
+        Institution Name: ICPSR
+
+        Authors: Aalap Doshi, Sanda Ionescu
+
+        Contact Email: sandai@umich.edu
+
+        Latest Version: 2.2
+
+        DDI Standards: DDI Lifecycle 3.0
       license: GNU Lesser General Public License (LGPL)
       extra:
         summary_tags: DDI, Editor, Open Source
@@ -447,8 +513,22 @@ categories:
     - name: DdiEditor
       homepage_url: http://code.google.com/p/ddieditor/
       logo: ddieditor.svg
-      description: Key tool in a framework of data processing tools and processes for survey
-        datasets.
+      description: |
+        Key tool in a framework of data processing tools and processes for survey datasets.
+
+        Availability: In production
+
+        Institution Name: Danish Data Archive, GESIS
+
+        Authors: Jannik Jensen, Dan Kristensen
+
+        Contact Email: jvj@dda.dk
+
+        Latest Version: 1.8.0
+
+        Support: Community-driven support
+
+        DDI Standards: DDI Lifecycle 3.1
       license: GNU Lesser GPL
       extra:
         summary_tags: DDI, Editor, Open Source
@@ -469,7 +549,16 @@ categories:
     - name: DDI with R
       homepage_url: https://cran.r-project.org/web/packages/DDIwR/index.html
       logo: ddiwr.svg
-      description: R package to create, edit, and validate DDI Codebook 2.6 using R commands.
+      description: |
+        R package to create, edit, and validate DDI Codebook 2.6 using R commands.
+
+        Availability: In production
+
+        Institution Name: RODA - Romanian Social Data Archive
+
+        Authors: Adrian Dusa
+
+        DDI Standards: DDI Codebook 2.6
       license: GPL-3
       extra:
         summary_tags: DDI, R, Editor, Open Source
@@ -488,7 +577,24 @@ categories:
     - name: Colectica for Excel
       homepage_url: https://www.colectica.com/software/colecticaforexcel/
       logo: colectica-excel.svg
-      description: Free tool to document spreadsheet data using the DDI standard.
+      description: |
+        Free tool to document spreadsheet data using the DDI standard.
+
+        Availability: In production
+
+        Institution Name: Colectica
+
+        Institution URL: http://www.colectica.com/
+
+        Authors: Jeremy Iverson, Dan Smith
+
+        Contact Email: support@colectica.com
+
+        Latest Version: 4.1
+
+        Support: Free, for limited time
+
+        DDI Standards: DDI Lifecycle 3.1, 3.2, 3.3
       repo_url: https://github.com/Colectica/Excel
       license: Freeware
       extra:
@@ -517,7 +623,24 @@ categories:
     - name: Colectica Designer
       homepage_url: http://www.colectica.com/products/designer/
       logo: colectica-designer.png
-      description: Visual DDI metadata editor and survey questionnaire designer.
+      description: |
+        Visual DDI metadata editor and survey questionnaire designer.
+
+        Availability: In production
+
+        Institution Name: Colectica
+
+        Institution URL: http://www.colectica.com/
+
+        Authors: Jeremy Iverson, Dan Smith
+
+        Contact Email: support@colectica.com
+
+        Latest Version: 3.0.1932
+
+        Support: Free, for limited time
+
+        DDI Standards: DDI Codebook 2.0, 2.1, 2.5; DDI Lifecycle 3.1, 3.2, 3.3
       repo_url: https://github.com/Colectica/Designer
       license: Commercial
       extra:
@@ -545,8 +668,22 @@ categories:
     - name: Colectica Questionnaires
       homepage_url: https://www.colectica.com/software/questionnaires/
       logo: colectica-questionnaires.png
-      description: Survey specification creator with multi-format publishing and question
-        bank integration.
+      description: |
+        Survey specification creator with multi-format publishing and question bank integration.
+
+        Availability: In production
+
+        Institution Name: Colectica
+
+        Institution URL: http://www.colectica.com/
+
+        Authors: Jeremy Iverson, Dan Smith
+
+        Contact Email: support@colectica.com
+
+        Latest Version: 5.4
+
+        DDI Standards: DDI Lifecycle 3.2, 3.3
       repo_url: https://github.com/Colectica/Questionnaires
       license: Commercial
       extra:
@@ -569,8 +706,16 @@ categories:
     - name: Pogues
       homepage_url: https://github.com/InseeFr/Pogues
       logo: pogues.png
-      description: Questionnaire design visual tool producing DDI descriptions, integrated
-        with Eno.
+      description: |
+        Questionnaire design visual tool producing DDI descriptions, integrated with Eno.
+
+        Availability: In production
+
+        Institution Name: French National Institute of Statistics and Economic Studies (Insee)
+
+        Support: Community-driven support
+
+        DDI Standards: DDI Lifecycle 3.3
       repo_url: https://github.com/InseeFr/Pogues
       license: MIT
       extra:
@@ -589,7 +734,18 @@ categories:
     - name: QDDT
       homepage_url: https://github.com/DASISH/qddt-client/wiki
       logo: qddt.svg
-      description: Interactive, dynamic web-based tool for questionnaire design and documentation.
+      description: |
+        Interactive, dynamic web-based tool for questionnaire design and documentation.
+
+        Availability: In production
+
+        Institution Name: Norwegian Centre for Research Data - NSD, ESS HQ, City University of London
+
+        Latest Version: 1.0
+
+        Support: Community-driven support
+
+        DDI Standards: DDI Lifecycle 3.2
       license: GPL
       extra:
         summary_tags: DDI, Questionnaire, Designer, Open Source
@@ -609,7 +765,14 @@ categories:
     - name: queXML
       homepage_url: https://quexml.acspri.org.au
       logo: quexml.svg
-      description: Simple XML schema for designing questionnaires, compatible with DDI.
+      description: |
+        Simple XML schema for designing questionnaires, compatible with DDI.
+
+        Availability: Unknown
+
+        Institution Name: Australian Consortium for Social and Political Research Incorporated
+
+        DDI Standards: DDI Codebook 2.1 (retained from current landscape; verify before relying on this classification)
       license: Freeware
       extra:
         summary_tags: DDI, Questionnaire, XML, Freeware
@@ -628,8 +791,18 @@ categories:
     - name: Eno
       homepage_url: https://github.com/InseeFr/Eno
       logo: eno.png
-      description: Metadata-driven survey data collection process including a questionnaire
-        generator developed by Insee.
+      description: |
+        Metadata-driven survey data collection process including a questionnaire generator developed by Insee.
+
+        Availability: In production
+
+        Institution Name: French National Institute of Statistics and Economic Studies (Insee)
+
+        Support: Community-driven support
+
+        Latest Version: 2.2.10
+
+        DDI Standards: DDI Lifecycle 3.3
       repo_url: https://github.com/InseeFr/Eno
       license: MIT
       extra:
@@ -651,8 +824,16 @@ categories:
     - name: EpiData Software
       homepage_url: http://www.epidata.dk/
       logo: epidata.svg
-      description: Software package for data definitions, documentation, entry, and analysis
-        based on DDI standards.
+      description: |
+        Software package for data definitions, documentation, entry, and analysis based on DDI standards.
+
+        Availability: In production
+
+        Institution Name: EpiData Association, Denmark
+
+        Authors: Jens Lauritsen, Torsten Bonde Christiansen
+
+        DDI Standards: DDI Lifecycle 3.1
       license: Open Source / Other (see full license at https://www.epidata.dk/about.htm)
       extra:
         summary_tags: DDI, Editor, Data Entry, Open Source
@@ -674,8 +855,16 @@ categories:
     - name: StatConverter
       homepage_url: https://roda.github.io/StatConverter/
       logo: statconverter.svg
-      description: Cross-platform software to convert major statistical software datasets
-        to DDI Codebook.
+      description: |
+        Cross-platform software to convert major statistical software datasets to DDI Codebook.
+
+        Availability: In production
+
+        Institution Name: RODA - Romanian Social Data Archive
+
+        Authors: Adrian Dusa
+
+        DDI Standards: DDI Codebook 2.5
       license: Academic Non-Commercial License
       extra:
         summary_tags: DDI, Converter, RODA
@@ -691,7 +880,14 @@ categories:
     - name: DDI to DDL
       homepage_url: http://sda.berkeley.edu/ddi/tools/
       logo: berkeley.png
-      description: Online DDI to DDL conversion service.
+      description: |
+        Online DDI to DDL conversion service.
+
+        Institution Name: CSM Program, Univ. of California, Berkeley
+
+        Contact Email: sda@berkeley.edu
+
+        DDI Standards: DDI Codebook 2.1
       license: Freeware
       extra:
         summary_tags: DDI, Converter, Freeware
@@ -707,7 +903,12 @@ categories:
     - name: XCONVERT
       homepage_url: http://sda.berkeley.edu/ddi/tools/
       logo: berkeley.png
-      description: Tool to convert SAS, SPSS, and Stata data definitions to DDI.
+      description: |
+        Tool to convert SAS, SPSS, and Stata data definitions to DDI.
+
+        Institution Name: CSM Program, Univ. of California, Berkeley
+
+        DDI Standards: DDI Codebook 2.1
       license: Freeware
       extra:
         summary_tags: DDI, Converter, Freeware
@@ -722,8 +923,22 @@ categories:
     - name: DDI DExT
       homepage_url: http://www.docstoc.com/docs/159004579/Quantitative-DExT-project---DExT---UK-Data-Archive
       logo: ddidext.svg
-      description: Tool to import data and DDI metadata from SPSS files with conversion to
-        ASCII and re-export to SAS, Stata, and SPSS.
+      description: |
+        Tool to import data and DDI metadata from SPSS files with conversion to ASCII and re-export to SAS, Stata, and SPSS.
+
+        Availability: No longer developed, but still available
+
+        Institution Name: Open Data Foundation
+
+        Authors: Pascal Heus
+
+        Contact Email: info@opendatafoundation.org
+
+        Latest Version: 20080426
+
+        Support: None
+
+        DDI Standards: DDI Codebook 2.1; DDI Lifecycle 3.0
       license: GNU Lesser General Public License (LGPL)
       extra:
         summary_tags: DDI, DExT, Converter, Open Source
@@ -747,7 +962,20 @@ categories:
     - name: DDI-XSLT
       homepage_url: https://github.com/MetadataTransform/ddi-xslt
       logo: ddi-xslt.png
-      description: Collection of XSLT stylesheets for transforming DDI to other formats.
+      description: |
+        Collection of XSLT stylesheets for transforming DDI to other formats.
+
+        Availability: Alpha release
+
+        Institution Name: Danish Data Archive, GESIS
+
+        Authors: Dan Kristiansen, Jannik Vestergaard Jensen, Thomas Bosch, Benjamin Zapilko
+
+        Contact Email: olof.olsson@snd.gu.se
+
+        Support: Community-driven support
+
+        DDI Standards: DDI Codebook 2.1; DDI Lifecycle 3.1
       repo_url: https://github.com/MetadataTransform/ddi-xslt
       license: GNU Lesser General Public License 3.0
       extra:
@@ -768,7 +996,18 @@ categories:
     - name: DDI to HTML Stylesheet
       homepage_url: http://www.icpsr.umich.edu
       logo: icpsr.png
-      description: Tool to transform and format content of DDI documents as HTML pages.
+      description: |
+        Tool to transform and format content of DDI documents as HTML pages.
+
+        Availability: No longer developed, but still available
+
+        Institution Name: ICPSR
+
+        Latest Version: 1.0
+
+        Support: Community-driven support
+
+        DDI Standards: DDI Codebook 2.0
       license: Information not available
       extra:
         summary_tags: DDI, XSLT, Transformation, Freeware
@@ -790,8 +1029,18 @@ categories:
     - name: Microdata Cataloging Tool (NADA)
       homepage_url: https://nada.ihsn.org/
       logo: ihsn.svg
-      description: Web-based cataloging system for researchers to browse, search, compare,
-        and download census or survey information.
+      description: |
+        Web-based cataloging system for researchers to browse, search, compare, and download census or survey information.
+
+        Availability: In production
+
+        Institution Name: International Household Survey Network, World Bank Data Group
+
+        Authors: World Bank Data Group, International Household Survey Network (IHSN)
+
+        Latest Version: 5.4.1
+
+        DDI Standards: DDI Codebook 2.0, 2.1, 2.5
       license: MIT
       extra:
         summary_tags: DDI, Catalog, Web, Open Source
@@ -811,7 +1060,22 @@ categories:
     - name: CED2AR
       homepage_url: https://www.ncrn.cornell.edu/projects/#Metadata_Standards_and_Tools
       logo: ced2ar.png
-      description: Lightweight DDI 2.5 repository for data documentation and access.
+      description: |
+        Lightweight DDI 2.5 repository for data documentation and access.
+
+        Availability: In production
+
+        Institution Name: Cornell University
+
+        Authors: CED2AR development team
+
+        Contact Email: ced2ar-devs-l@cornell.edu
+
+        Latest Version: 2.5
+
+        Support: Community-driven support
+
+        DDI Standards: DDI Codebook 2.5
       repo_url: https://github.com/ncrncornell/ced2ar
       license: CC BY-NC-SA 4.0 International
       extra:
@@ -832,7 +1096,20 @@ categories:
     - name: Colectica Portal
       homepage_url: http://www.colectica.com/products/web/
       logo: colectica-portal.png
-      description: Web application for data and metadata publication and discovery.
+      description: |
+        Web application for data and metadata publication and discovery.
+
+        Availability: In production
+
+        Institution Name: Colectica
+
+        Institution URL: http://www.colectica.com/
+
+        Authors: Jeremy Iverson, Dan Smith
+
+        Contact Email: support@colectica.com
+
+        DDI Standards: DDI Lifecycle 3.1, 3.2, 3.3
       repo_url: https://github.com/Colectica/Portal
       license: Commercial
       extra:
@@ -855,8 +1132,24 @@ categories:
     - name: Colectica Repository
       homepage_url: http://www.colectica.com/products/repository/
       logo: colectica-repository.png
-      description: Centralised storage system for managing DDI data resources, collaborative
-        workflows, and version control.
+      description: |
+        Centralised storage system for managing DDI data resources, collaborative workflows, and version control.
+
+        Availability: In production
+
+        Institution Name: Colectica
+
+        Institution URL: http://www.colectica.com/
+
+        Authors: Jeremy Iverson, Dan Smith
+
+        Contact Email: support@colectica.com
+
+        Latest Version: 3.0.1932
+
+        Support: For-fee
+
+        DDI Standards: DDI Lifecycle 3.1, 3.2, 3.3
       repo_url: https://github.com/Colectica/Repository
       license: Commercial
       extra:
@@ -882,8 +1175,14 @@ categories:
     - name: DDI Index
       homepage_url: http://assda.anu.edu.au/ddiindex.html
       logo: ddi-index.svg
-      description: Java/JavaScript application for indexing and searching XML files created
-        in DDI format.
+      description: |
+        Java/JavaScript application for indexing and searching XML files created in DDI format.
+
+        Availability: Unknown
+
+        Institution Name: Australian Social Science Data Archive
+
+        DDI Standards: DDI Codebook 2.1
       license: Freeware
       extra:
         summary_tags: DDI, Index, Search, Freeware
@@ -900,7 +1199,20 @@ categories:
     - name: Colectica Resolver
       homepage_url: http://resolver.colectica.com
       logo: colectica-resolver.svg
-      description: DNS-based resolution service for DDI3 agency identifiers and related metadata.
+      description: |
+        DNS-based resolution service for DDI3 agency identifiers and related metadata.
+
+        Availability: Unknown
+
+        Institution Name: Colectica
+
+        Institution URL: http://www.colectica.com/
+
+        Authors: Jeremy Iverson, Dan Smith
+
+        Contact Email: support@colectica.com
+
+        DDI Standards: DDI Lifecycle 3.1, 3.2, 3.3
       license: Freeware
       extra:
         summary_tags: DDI, Resolver, DNS, Freeware
@@ -920,8 +1232,20 @@ categories:
     - name: Colectica Resolver Library
       homepage_url: http://resolver.colectica.com/Home/Develop
       logo: colectica-resolver-library.svg
-      description: Library for integrating DNS-based data resolution in applications (.NET
-        and Java).
+      description: |
+        Library for integrating DNS-based data resolution in applications (.NET and Java).
+
+        Availability: Unknown
+
+        Institution Name: Colectica
+
+        Institution URL: http://www.colectica.com/
+
+        Authors: Jeremy Iverson, Dan Smith
+
+        Contact Email: support@colectica.com
+
+        DDI Standards: DDI Lifecycle 3.1, 3.2, 3.3
       license: Freeware
       extra:
         summary_tags: DDI, Resolver, Library, Freeware
@@ -945,8 +1269,22 @@ categories:
     - name: DDI Data Description Statistics Protection Software
       homepage_url: http://www.adp.fdv.uni-lj.si/eng/za_uporabnike/usposabljanje_uporabnikov/orodje_zascita_statistik/
       logo: ddi-protection.svg
-      description: Tool for anonymisation of DDI-standard univariate statistics, protecting
-        aggregated data directly in XML.
+      description: |
+        Tool for anonymisation of DDI-standard univariate statistics, protecting aggregated data directly in XML.
+
+        Availability: Beta release
+
+        Institution Name: Social Science Data Archives (University of Ljubljana, Slovenia)
+
+        Authors: Sebastian Kočar, Katarina Stupica
+
+        Contact Email: sebastian.kocar@fdv.uni-lj.si
+
+        Latest Version: 1.1
+
+        Support: Community-driven support
+
+        DDI Standards: DDI Codebook 2.0, 2.1, 2.5
       license: Freeware
       extra:
         summary_tags: DDI, Protection, Anonymisation, Freeware
@@ -971,8 +1309,16 @@ categories:
     - name: EpiData Software
       homepage_url: http://www.epidata.dk/
       logo: epidata.svg
-      description: Software package for data definitions, documentation, entry, and analysis
-        based on DDI standards.
+      description: |
+        Software package for data definitions, documentation, entry, and analysis based on DDI standards.
+
+        Availability: In production
+
+        Institution Name: EpiData Association, Denmark
+
+        Authors: Jens Lauritsen, Torsten Bonde Christiansen
+
+        DDI Standards: DDI Lifecycle 3.1
       license: Open Source / Other (see full license at https://www.epidata.dk/about.htm)
       extra:
         summary_tags: DDI, Editor, Data Entry, Open Source
@@ -994,7 +1340,20 @@ categories:
     - name: DDIProfileXSLT
       homepage_url: http://www.ddialliance.org/node/918
       logo: ddiprofilexslt.svg
-      description: XSLT scripts to create and render DDI Profiles in HTML.
+      description: |
+        XSLT scripts to create and render DDI Profiles in HTML.
+
+        Availability: In production
+
+        Authors: Joachim Wackerow
+
+        Contact Email: joachim.wackerow@gesis.org
+
+        Latest Version: 2014-05-17
+
+        Support: Free, to any user
+
+        DDI Standards: DDI Lifecycle 3.1, 3.2
       license: Information not available
       extra:
         summary_tags: DDI, Profile, XSLT, Free
@@ -1025,7 +1384,14 @@ categories:
     - name: DDI 3.0 Core
       homepage_url: https://ddialliance.org/hubfs/sites/default/files/bp/CORE_Profile_FinalDDI3.xml
       logo: ddi3-core.svg
-      description: Recommended elements for DDI 3.0, formerly DDI Lite.
+      description: |
+        Recommended elements for DDI 3.0, formerly DDI Lite.
+
+        Authors: Sanda Ionescu, ICPSR
+
+        Contact Email: sandai@umich.edu
+
+        DDI Standards: DDI Lifecycle 3.0
       license: Freeware
       extra:
         summary_tags: DDI Profile
@@ -1042,23 +1408,12 @@ categories:
     - name: GSIM DDI Profiles
       homepage_url: https://statswiki.unece.org/spaces/gsim/pages/97356545/DDI+Profiles
       logo: gsim.png
-      description: BTO Profile - The first profile is "Basic Technical Objects" (BTO). There
-        are a small set of technical objects that are used in DDI to support identification,
-        referencing, dates, external controlled vocabularies, string content, and the basic
-        features of ISO/IEC 11179-5 (Name, Label, Description). This profile provides guidance
-        for the best practice usage of these technical objects to support interoperability.
-        In particular it identifies those objects which should be considered interoperable
-        and applied in a consistent manner, and those that contain primarily local information.
-        Variable Profile-  This profile covers those DDI objects required to support the Variable,
-        Population and Concept objects in GSIM. Represented Variable Profile - This profile
-        covers those DDI objects required to support the Represented Variable, Enumerated
-        Value Domain, Described Value Domain and Unit of Measure objects in GSIM. Questionnaire
-        Profile - This is the definition of a 3.2 DDI profile for business questionnaire -
-        test version. This profile includes all the objects, schemes and 'packaging' information
-        needed to create a complete questionnaire, including Questions, Question Groups and
-        Blocks, Statements, Interviewer Instructions, Controls and Instrument. Codelist Profile
-        - This profile covers those DDI objects required to support Code Lists and Category
-        Sets in GSIM.
+      description: |
+        BTO Profile - The first profile is "Basic Technical Objects" (BTO). There are a small set of technical objects that are used in DDI to support identification, referencing, dates, external controlled vocabularies, string content, and the basic features of ISO/IEC 11179-5 (Name, Label, Description). This profile provides guidance for the best practice usage of these technical objects to support interoperability. In particular it identifies those objects which should be considered interoperable and applied in a consistent manner, and those that contain primarily local information. Variable Profile- This profile covers those DDI objects required to support the Variable, Population and Concept objects in GSIM. Represented Variable Profile - This profile covers those DDI objects required to support the Represented Variable, Enumerated Value Domain, Described Value Domain and Unit of Measure objects in GSIM. Questionnaire Profile - This is the definition of a 3.2 DDI profile for business questionnaire - test version. This profile includes all the objects, schemes and 'packaging' information needed to create a complete questionnaire, including Questions, Question Groups and Blocks, Statements, Interviewer Instructions, Controls and Instrument. Codelist Profile - This profile covers those DDI objects required to support Code Lists and Category Sets in GSIM.
+
+        Authors: Gerald Muriel
+
+        DDI Standards: DDI Lifecycle 3.2
       extra:
         summary_tags: DDI Profile
         summary_use_case: Recommended elements for DDI 3.2 to support GSIM requirements.
@@ -1087,10 +1442,16 @@ categories:
     - name: Colectica DDI Examples
       homepage_url: https://github.com/Colectica/ddi-examples/tree/master
       logo: colectica.png
-      description: The Data Documentation Initiative (DDI) is an effort to create an international
-        standard for describing social science and statistical data. The DDI 3 metadata specification
-        covers the entire data lifecycle, and Colectica allows a user to automatically capture
-        this valuable information automatically.
+      description: |
+        The Data Documentation Initiative (DDI) is an effort to create an international standard for describing social science and statistical data. The DDI 3 metadata specification covers the entire data lifecycle, and Colectica allows a user to automatically capture this valuable information automatically.
+
+        Institution Name: Colectica
+
+        Institution URL: http://www.colectica.com/
+
+        Authors: Jeremy Iverson
+
+        DDI Standards: DDI Lifecycle 3.1
       repo_url: https://github.com/Colectica/ddi-examples/tree/master
       extra:
         summary_tags: DDI Examples
@@ -1141,7 +1502,16 @@ categories:
     - name: DDI Tools Made Available by the SDA Project
       homepage_url: http://sda.berkeley.edu/ddi/tools/
       logo: berkeley.png
-      description: Online analysis system providing tools to create DDI 2.
+      description: |
+        Online analysis system providing tools to create DDI 2.
+
+        Availability: In production
+
+        Institution Name: SDA Project CSM Program, Univ. of California, Berkeley
+
+        Contact Email: sda@berkeley.edu
+
+        DDI Standards: DDI Codebook 2.1
       license: Information not available
       extra:
         summary_tags: DDI, Tools, Collection
