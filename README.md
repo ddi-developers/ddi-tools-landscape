@@ -28,6 +28,7 @@ This landscape was created with the following steps:
 
    cd ddi-tools
    landscape2 build --data-file data.yml --settings-file settings.yml --guide-file guide.yml --games-file games.yml --logos-path logos --output-dir build
+   python3 scripts/patch_build.py
 
 5. **Serve the landscape locally**
 
@@ -50,6 +51,7 @@ If you have cloned this repository and want to run the landscape locally:
 3. **Build the landscape**
 
    landscape2 build --data-file data.yml --settings-file settings.yml --guide-file guide.yml --games-file games.yml --logos-path logos --output-dir build
+   python3 scripts/patch_build.py
 
 4. **Serve the landscape locally**
 
@@ -79,14 +81,22 @@ regenerate `data.yml` and `guide.yml`:
     python3 scripts/build_data.py
 
 Requires PyYAML (`pip install pyyaml`). Re-run the normal `landscape2 build`
-step afterwards to rebuild the site.
+and `scripts/patch_build.py` steps afterwards to rebuild the site.
+
+`build_data.py` appends each `extra.annotations` entry to the item's
+description as a separate "Label: value" paragraph. landscape2 shows
+descriptions as plain text, so `scripts/patch_build.py` patches the
+generated `build/` output so the item detail view keeps those paragraph
+breaks and shows each label in bold. Run it after every `landscape2 build`;
+it fails if run twice on the same build or if a landscape2 upgrade changed
+the patched code.
 
 ## Publishing to GitHub Pages
 
 `.github/workflows/deploy-pages.yml` rebuilds and publishes the landscape
 automatically on every push to `main` (and can be run manually via the
 Actions tab). It regenerates `data.yml` and `guide.yml`, runs
-`landscape2 build`, and deploys the result with GitHub's Pages actions.
+`landscape2 build` and `scripts/patch_build.py`, and deploys the result with GitHub's Pages actions.
 
 One-time repository setup: in **Settings → Pages**, set **Source** to
 **GitHub Actions**.

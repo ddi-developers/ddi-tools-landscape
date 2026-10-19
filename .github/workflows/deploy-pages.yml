@@ -79,6 +79,9 @@ jobs:
             --logos-path logos \
             --output-dir build
 
+      - name: Format description annotations
+        run: python3 scripts/patch_build.py
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
