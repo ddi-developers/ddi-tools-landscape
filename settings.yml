@@ -53,6 +53,15 @@ groups:
   - DDI Profiles
   - DDI Standards
   - DDI Resources & Collections
+- name: APIs
+  alias: apis
+  categories:
+  - DDI APIs
+  - DDI Standards
+- name: Portals
+  alias: portals
+  categories:
+  - DDI Portals
 - name: Members
   alias: members
   categories:

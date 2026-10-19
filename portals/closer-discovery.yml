@@ -1,0 +1,18 @@
+category: DDI Portals
+subcategory: DDI Lifecycle 3.3
+order: 1
+name: Closer Discovery
+homepage_url: https://discovery.closer.ac.uk/
+logo: closer.png
+description: 
+extra:
+  summary_tags: DDI, Repository, Index, Store
+  summary_use_case: 
+  summary_personas: Data managers, archivists
+  annotations:
+    availability: In production
+    institution_name: Closer
+    ddi_standards: DDI Lifecycle 3.1, 3.2, 3.3
+second_path:
+- DDI Portals / DDI Lifecycle 3.1
+- DDI Portals / DDI Lifecycle 3.2

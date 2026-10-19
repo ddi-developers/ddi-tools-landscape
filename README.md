@@ -61,9 +61,12 @@ If you have cloned this repository and want to run the landscape locally:
 
 ## Editing tool data
 
-Entries are maintained as one YAML file per item under `tools/`, `members/`,
-`examples/` and `profiles/`, rather than directly in `data.yml`. `data.yml` and
-`guide.yml` are generated and should not be edited by hand.
+Entries are maintained as one YAML file per item under `tools/`, `apis/`,
+`portals/`, `members/`, `examples/` and `profiles/`, rather than directly in
+`data.yml`. Each directory becomes a group (tab) in the landscape: Tools,
+APIs, Portals, Members, Profiles and Examples. `data.yml`, `guide.yml` and the
+`groups` block in `settings.yml` are generated and should not be edited by
+hand.
 
 - `structure.yml` lists the categories and subcategories, in display order.
   An optional `guide` field on a category or subcategory is used as its
