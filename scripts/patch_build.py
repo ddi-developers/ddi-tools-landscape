@@ -13,6 +13,8 @@ script:
   It builds DOM nodes with textContent, so no data is parsed as HTML.
 Card previews (2-line clamp) are left as they are.
 
+It also hides the explore view's "Sort" select (see CSS below).
+
 Run after every `landscape2 build`, since the build overwrites build/:
     python3 scripts/patch_build.py [build-dir]
 
@@ -55,8 +57,18 @@ HELPER = r"""
 function __ddiDesc(t){if(typeof t!=="string"||!t.includes("\n\n"))return t;return t.split("\n\n").flatMap((p,i)=>{const o=i>0?["\n\n"]:[];const m=i>0&&p.match(/^([^:\n]{1,80}):\s/);if(m){const b=document.createElement("strong");b.textContent=m[1]+":";o.push(b,p.slice(m[1].length+1))}else o.push(p);return o})}
 """
 
-# The bundle name carries a per-build hash.
+# Appended to the main stylesheet: hides the "Sort:" select and its label
+# (desktop toolbar and mobile filters). Besides Name, landscape2 only offers
+# GitHub-based sort keys (stars, commits, contributors), which are empty
+# here since no repository data is collected.
+CSS = """
+/* DDI: hide sort options */
+#sorted, div:has(+ #sorted) { display: none !important; }
+"""
+
+# The bundle and stylesheet names carry a per-build hash.
 GLOB = "assets/index-*.js"
+CSS_GLOB = "assets/index-*.css"
 
 
 def main():
@@ -79,6 +91,16 @@ def main():
                 new_text = new_text.rstrip("\n") + "\n" + HELPER.lstrip("\n")
             path.write_text(new_text, encoding="utf-8")
             print(f"patched {path.relative_to(build)}")
+
+    css_files = sorted(build.glob(CSS_GLOB))
+    if not css_files:
+        sys.exit(f"no landscape2 stylesheet found in {build}")
+    for path in css_files:
+        text = path.read_text(encoding="utf-8")
+        if CSS.strip() in text:
+            sys.exit(f"{path.relative_to(build)} already patched")
+        path.write_text(text.rstrip("\n") + "\n" + CSS.lstrip("\n"), encoding="utf-8")
+        print(f"patched {path.relative_to(build)}")
 
     missing = [old for old, n in counts.items() if n == 0]
     for old, n in counts.items():

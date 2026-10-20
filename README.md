@@ -90,7 +90,9 @@ and `scripts/patch_build.py` steps afterwards to rebuild the site.
 description as a separate "Label: value" paragraph. landscape2 shows
 descriptions as plain text, so `scripts/patch_build.py` patches the
 generated `build/` output so the item detail view keeps those paragraph
-breaks and shows each label in bold. Run it after every `landscape2 build`;
+breaks and shows each label in bold. It also hides the explore view's "Sort" select,
+whose GitHub-based options (stars, commits, contributors) have no data in
+this landscape. Run it after every `landscape2 build`;
 it fails if run twice on the same build or if a landscape2 upgrade changed
 the patched code.
 
