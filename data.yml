@@ -618,6 +618,385 @@ categories:
       - DDI Standards / DDI Lifecycle 3.3
 - name: Survey & Data Collection Tools
   subcategories:
+  - name: Questionnaire Editors
+    items:
+    - name: LimeSurvey
+      homepage_url: https://www.limesurvey.org
+      logo: limesurvey.svg
+      description: |
+        Open-source online survey tool with an integrated questionnaire editor and queXML import/export.
+
+        Institution Name: LimeSurvey GmbH
+
+        Integrated Questionnaire Editor: yes
+
+        Structured Import: queXML
+
+        Structured Export: queXML
+
+        Questionnaire Entities: Supported: Statement, Simple question (coded, text, combined), Grid question (coded), Interviewee Instruction; Not supported: Interviewer Instruction
+
+        Question Structure: Supported: Question text, Answer options, Answer codes, Item text, Intro text, Multilingual questionnaire support; Not supported: Outro text
+
+        DDI Standards: None (no DDI support implemented)
+      repo_url: https://github.com/LimeSurvey/LimeSurvey
+      license: GPL-2.0
+      extra:
+        summary_tags: Questionnaire, Editor, Open Source
+        summary_integrations: 'Import: queXML; Export: queXML'
+        summary_personas: Survey designers, questionnaire designers
+        annotations:
+          institution_name: LimeSurvey GmbH
+          integrated_questionnaire_editor: 'yes'
+          structured_import: queXML
+          structured_export: queXML
+          questionnaire_entities: 'Supported: Statement, Simple question (coded, text, combined),
+            Grid question (coded), Interviewee Instruction; Not supported: Interviewer Instruction'
+          question_structure: 'Supported: Question text, Answer options, Answer codes, Item
+            text, Intro text, Multilingual questionnaire support; Not supported: Outro text'
+          ddi_standards: None (no DDI support implemented)
+    - name: REDCap
+      homepage_url: https://projectredcap.org
+      logo: redcap.svg
+      description: |
+        Secure web application for building and managing online surveys and research databases.
+
+        Institution Name: Vanderbilt University
+
+        Integrated Questionnaire Editor: yes
+
+        Structured Import: CSV
+
+        Structured Export: CSV
+
+        Licence Notes: https://projectredcap.org/join/termsofuse/
+
+        Questionnaire Entities: Supported: Statement, Simple question (coded, text, number, date), Grid question (coded), Computational Item; Not supported: Simple question (geographic location, combined), Grid question (geographic location)
+
+        Question Structure: Supported: Question text, Answer options, Answer codes, Item text (via IfThenElse), Multilingual questionnaire support (translation not exported)
+
+        Flow Logic: Supported: Incoming Condition, Outgoing conditions, IfThenElse; Not supported: While
+
+        Conditional Text: Supported: Alternatives, Display of variable content, Data Lookup / Preload
+
+        Dataset Predefinition: Supported: Target Variable(s), Target Data type
+
+        DDI Standards: DDI Lifecycle 3.1, DDI Lifecycle 3.2, DDI Lifecycle 3.3 (via Colectica Designer)
+      license: Proprietary (free for non-profit consortium partners; see https://projectredcap.org/join/termsofuse/)
+      extra:
+        summary_tags: Questionnaire, Editor, Proprietary
+        summary_integrations: 'Import: CSV; Export: CSV'
+        summary_personas: Survey designers, questionnaire designers
+        annotations:
+          institution_name: Vanderbilt University
+          integrated_questionnaire_editor: 'yes'
+          structured_import: CSV
+          structured_export: CSV
+          licence_notes: https://projectredcap.org/join/termsofuse/
+          questionnaire_entities: 'Supported: Statement, Simple question (coded, text, number,
+            date), Grid question (coded), Computational Item; Not supported: Simple question
+            (geographic location, combined), Grid question (geographic location)'
+          question_structure: 'Supported: Question text, Answer options, Answer codes, Item
+            text (via IfThenElse), Multilingual questionnaire support (translation not exported)'
+          flow_logic: 'Supported: Incoming Condition, Outgoing conditions, IfThenElse; Not
+            supported: While'
+          conditional_text: 'Supported: Alternatives, Display of variable content, Data Lookup
+            / Preload'
+          dataset_predefinition: 'Supported: Target Variable(s), Target Data type'
+          ddi_standards: DDI Lifecycle 3.1, DDI Lifecycle 3.2, DDI Lifecycle 3.3 (via Colectica
+            Designer)
+    - name: Blaise
+      homepage_url: https://blaise.com
+      logo: blaise.svg
+      description: |
+        Computer-assisted survey processing system for designing questionnaires and collecting data across modes (CAPI, CATI, CAWI).
+
+        Institution Name: Statistics Netherlands (CBS)
+
+        Integrated Questionnaire Editor: yes
+
+        Questionnaire Entities: Supported: Simple question (coded, text, number, date, combined), Grid question (coded, text, number, date), Interviewer Instruction, Interviewee Instruction, Computational Item; Not supported: Grid question (combined)
+
+        Question Structure: Supported: Question text, Answer options, Answer codes, Item text, Multilingual questionnaire support
+
+        Flow Logic: Supported: Loops, While, IfThenElse
+
+        Conditional Text: Supported: Alternatives, Display of variable content, Data Lookup / Preload
+
+        DDI Standards: DDI Lifecycle 3.0, DDI Lifecycle 3.1, DDI Lifecycle 3.2, DDI Lifecycle 3.3 (via Colectica Questionnaire)
+      license: Commercial
+      extra:
+        summary_tags: Questionnaire, Editor, Proprietary
+        summary_personas: Survey designers, questionnaire designers
+        annotations:
+          institution_name: Statistics Netherlands (CBS)
+          integrated_questionnaire_editor: 'yes'
+          questionnaire_entities: 'Supported: Simple question (coded, text, number, date,
+            combined), Grid question (coded, text, number, date), Interviewer Instruction,
+            Interviewee Instruction, Computational Item; Not supported: Grid question (combined)'
+          question_structure: 'Supported: Question text, Answer options, Answer codes, Item
+            text, Multilingual questionnaire support'
+          flow_logic: 'Supported: Loops, While, IfThenElse'
+          conditional_text: 'Supported: Alternatives, Display of variable content, Data Lookup
+            / Preload'
+          ddi_standards: DDI Lifecycle 3.0, DDI Lifecycle 3.1, DDI Lifecycle 3.2, DDI Lifecycle
+            3.3 (via Colectica Questionnaire)
+    - name: Qualtrics
+      homepage_url: https://www.qualtrics.com
+      logo: qualtrics.svg
+      description: |
+        Commercial online survey and experience-management platform with an integrated questionnaire editor.
+
+        Institution Name: Qualtrics
+
+        Integrated Questionnaire Editor: yes
+
+        Structured Import: yes (*.qsf)
+
+        Structured Export: yes (*.qsf, *.csv ; *.tsv ; *.xlsx ; *.sav ; *.xml)
+
+        Open Standards: no (proprietary format: *.qsf)
+
+        Licence Notes: no (but an active user community https://community.qualtrics.com/)
+
+        Questionnaire Entities: Supported: Simple question (coded, text, number, date, geographic location, combined), Grid question (coded, text, number, date, geographic location, combined), Interviewee Instruction, Computational Item; Not supported: Interviewer Instruction
+
+        Question Structure: Supported: Question text, Answer options, Answer codes, Item text, Intro text, Outro text, Multilingual questionnaire support (export)
+
+        Flow Logic: Supported: Incoming Condition (IfThen), Loops, Outgoing conditions (IfThen); Partially: IfThenElse; Not supported: While
+
+        Conditional Text: Supported: Alternatives, Display of variable content, Data Lookup / Preload
+
+        Dataset Predefinition: Overall: partially supported; Supported: Target Variable(s); Not supported: Target Data type (explicit typing not formally defined)
+
+        DDI Standards: None (no DDI support implemented)
+      license: Commercial
+      extra:
+        summary_tags: Questionnaire, Editor, Proprietary
+        summary_integrations: 'Import: yes (*.qsf); Export: yes (*.qsf, *.csv ; *.tsv ; *.xlsx
+          ; *.sav ; *.xml)'
+        summary_personas: Survey designers, questionnaire designers
+        annotations:
+          institution_name: Qualtrics
+          integrated_questionnaire_editor: 'yes'
+          structured_import: yes (*.qsf)
+          structured_export: yes (*.qsf, *.csv ; *.tsv ; *.xlsx ; *.sav ; *.xml)
+          open_standards: 'no (proprietary format: *.qsf)'
+          licence_notes: no (but an active user community https://community.qualtrics.com/)
+          questionnaire_entities: 'Supported: Simple question (coded, text, number, date,
+            geographic location, combined), Grid question (coded, text, number, date, geographic
+            location, combined), Interviewee Instruction, Computational Item; Not supported:
+            Interviewer Instruction'
+          question_structure: 'Supported: Question text, Answer options, Answer codes, Item
+            text, Intro text, Outro text, Multilingual questionnaire support (export)'
+          flow_logic: 'Supported: Incoming Condition (IfThen), Loops, Outgoing conditions
+            (IfThen); Partially: IfThenElse; Not supported: While'
+          conditional_text: 'Supported: Alternatives, Display of variable content, Data Lookup
+            / Preload'
+          dataset_predefinition: 'Overall: partially supported; Supported: Target Variable(s);
+            Not supported: Target Data type (explicit typing not formally defined)'
+          ddi_standards: None (no DDI support implemented)
+    - name: KoboToolbox
+      homepage_url: https://www.kobotoolbox.org
+      logo: kobotoolbox.svg
+      description: |
+        Open-source suite for field data collection with a form builder, mobile data entry and XLSForm support.
+
+        Institution Name: Kobo, Inc.
+
+        Feature Matrix: Not yet assessed
+      repo_url: https://github.com/kobotoolbox
+      license: AGPL-3.0
+      extra:
+        summary_tags: Questionnaire, Editor, Open Source
+        summary_personas: Survey designers, questionnaire designers
+        annotations:
+          institution_name: Kobo, Inc.
+          feature_matrix: Not yet assessed
+    - name: FormAssembly
+      homepage_url: https://www.formassembly.com
+      logo: formassembly.svg
+      description: |
+        Commercial web form and survey builder with Salesforce integration.
+
+        Institution Name: FormAssembly
+
+        Integrated Questionnaire Editor: yes
+
+        Structured Import: Excel, CSV, Salesforce
+
+        Structured Export: CSV, Excel, XML, HTML
+
+        Questionnaire Entities: Supported: Simple question (coded, text, number, date, geographic location, combined), Grid question (coded, text, number, date, geographic location, combined), Interviewer Instruction, Interviewee Instruction, Computational Item
+
+        Question Structure: Supported: Question text, Answer options, Answer codes, Item text, Intro text, Outro text, Multilingual questionnaire support (auto translate)
+
+        Flow Logic: Supported: Incoming Condition, Loops, Outgoing conditions, While, IfThenElse
+
+        Conditional Text: Supported: Data Lookup / Preload (Salesforce); Unclear: Display of variable content (no dynamic text?)
+
+        DDI Standards: None (no DDI support implemented)
+      license: Commercial
+      extra:
+        summary_tags: Questionnaire, Editor, Proprietary
+        summary_integrations: 'Import: Excel, CSV, Salesforce; Export: CSV, Excel, XML, HTML'
+        summary_personas: Survey designers, questionnaire designers
+        annotations:
+          institution_name: FormAssembly
+          integrated_questionnaire_editor: 'yes'
+          structured_import: Excel, CSV, Salesforce
+          structured_export: CSV, Excel, XML, HTML
+          questionnaire_entities: 'Supported: Simple question (coded, text, number, date,
+            geographic location, combined), Grid question (coded, text, number, date, geographic
+            location, combined), Interviewer Instruction, Interviewee Instruction, Computational
+            Item'
+          question_structure: 'Supported: Question text, Answer options, Answer codes, Item
+            text, Intro text, Outro text, Multilingual questionnaire support (auto translate)'
+          flow_logic: 'Supported: Incoming Condition, Loops, Outgoing conditions, While, IfThenElse'
+          conditional_text: 'Supported: Data Lookup / Preload (Salesforce); Unclear: Display
+            of variable content (no dynamic text?)'
+          ddi_standards: None (no DDI support implemented)
+    - name: GESIS AppKit
+      homepage_url: https://www.gesis.org/en/gesis-appkit/about-appkit
+      logo: gesis-appkit.svg
+      description: |
+        Smartphone app and web dashboard for designing and running mobile surveys, e.g. experience sampling and ambulatory assessment studies.
+
+        Institution Name: GESIS – Leibniz Institute for the Social Sciences
+
+        Institution URL: https://www.gesis.org
+
+        Integrated Questionnaire Editor: yes
+
+        Structured Import: no
+
+        Structured Export: no
+
+        Open Standards: no
+
+        Questionnaire Entities: Supported: Statement, Simple question (coded, text, number, date), Interviewer Instruction; Planned: Simple question (geographic location); Unclear: Simple question (combined), Grid question (coded, text, number, date, geographic location, combined); Not supported: Interviewee Instruction, Computational Item
+
+        Question Structure: Supported: Question text, Answer options, Answer codes, Intro text (as statement), Outro text (as statement), Multilingual questionnaire support (de/en); Unclear: Item text
+
+        Flow Logic: Planned: Incoming Condition, Loops, Outgoing conditions
+
+        Conditional Text: Unclear: Alternatives, Display of variable content; Not supported: Data Lookup / Preload
+
+        Dataset Predefinition: Supported: Target Variable(s), Target Data type (probably)
+
+        DDI Standards: None (no DDI support implemented)
+      license: Apache-2.0
+      extra:
+        summary_tags: Questionnaire, Editor, Open Source
+        summary_personas: Survey designers, questionnaire designers
+        annotations:
+          institution_name: GESIS – Leibniz Institute for the Social Sciences
+          institution_url: https://www.gesis.org
+          integrated_questionnaire_editor: 'yes'
+          structured_import: 'no'
+          structured_export: 'no'
+          open_standards: 'no'
+          questionnaire_entities: 'Supported: Statement, Simple question (coded, text, number,
+            date), Interviewer Instruction; Planned: Simple question (geographic location);
+            Unclear: Simple question (combined), Grid question (coded, text, number, date,
+            geographic location, combined); Not supported: Interviewee Instruction, Computational
+            Item'
+          question_structure: 'Supported: Question text, Answer options, Answer codes, Intro
+            text (as statement), Outro text (as statement), Multilingual questionnaire support
+            (de/en); Unclear: Item text'
+          flow_logic: 'Planned: Incoming Condition, Loops, Outgoing conditions'
+          conditional_text: 'Unclear: Alternatives, Display of variable content; Not supported:
+            Data Lookup / Preload'
+          dataset_predefinition: 'Supported: Target Variable(s), Target Data type (probably)'
+          ddi_standards: None (no DDI support implemented)
+    - name: Insee Questionnaire Suite
+      homepage_url: https://github.com/InseeFr
+      logo: insee.png
+      description: |
+        Insee's questionnaire design and generation tool chain (Pogues, Eno, Lunatic) based on an internal JSON model and DDI 3.3.
+
+        Institution Name: French National Institute of Statistics and Economic Studies (Insee)
+
+        Integrated Questionnaire Editor: yes
+
+        Structured Import: Internal JSON model
+
+        Structured Export: Internal JSON model / DDI 3.3 XML
+
+        Open Standards: DDI 3.3
+
+        Questionnaire Entities: Supported: Statement, Simple question (coded, text, number, date, combined), Grid question (coded, text, number, date, combined), Interviewer Instruction, Interviewee Instruction; Not supported: Simple question (geographic location), Grid question (geographic location)
+
+        Question Structure: Supported: Question text, Answer options, Answer codes, Item text, Intro text, Outro text; Not supported: Multilingual questionnaire support
+
+        Flow Logic: Supported: Incoming Condition, Loops, Outgoing conditions
+
+        Conditional Text: Supported: Alternatives, Display of variable content
+
+        Dataset Predefinition: Unclear: Target Variable(s), Target Data type
+
+        DDI Standards: DDI Lifecycle 3.3
+      repo_url: https://github.com/InseeFr
+      license: MIT
+      extra:
+        summary_tags: DDI, Questionnaire, Editor, Open Source
+        summary_integrations: 'Import: Internal JSON model; Export: Internal JSON model /
+          DDI 3.3 XML'
+        summary_personas: Survey designers, questionnaire designers
+        annotations:
+          institution_name: French National Institute of Statistics and Economic Studies (Insee)
+          integrated_questionnaire_editor: 'yes'
+          structured_import: Internal JSON model
+          structured_export: Internal JSON model / DDI 3.3 XML
+          open_standards: DDI 3.3
+          questionnaire_entities: 'Supported: Statement, Simple question (coded, text, number,
+            date, combined), Grid question (coded, text, number, date, combined), Interviewer
+            Instruction, Interviewee Instruction; Not supported: Simple question (geographic
+            location), Grid question (geographic location)'
+          question_structure: 'Supported: Question text, Answer options, Answer codes, Item
+            text, Intro text, Outro text; Not supported: Multilingual questionnaire support'
+          flow_logic: 'Supported: Incoming Condition, Loops, Outgoing conditions'
+          conditional_text: 'Supported: Alternatives, Display of variable content'
+          dataset_predefinition: 'Unclear: Target Variable(s), Target Data type'
+          ddi_standards: DDI Lifecycle 3.3
+      second_path:
+      - DDI Standards / DDI Lifecycle 3.3
+    - name: StatCan EQDT
+      homepage_url: https://www.statcan.gc.ca
+      logo: statcan.png
+      description: |
+        Statistics Canada's questionnaire design tool, built on DDI Lifecycle 3.3.
+
+        Institution Name: Statistics Canada
+
+        Institution URL: https://www.statcan.gc.ca
+
+        Open Standards: DDI 3.3
+
+        Questionnaire Entities: Supported: Statement, Simple question (coded, text, number, date, geographic location, combined), Interviewer Instruction, Interviewee Instruction; Partially: Computational Item; Not supported: Grid question (coded, text, number, date, geographic location, combined)
+
+        Question Structure: Supported: Question text, Answer options, Answer codes, Item text, Multilingual questionnaire support
+
+        Flow Logic: Supported: Incoming Condition, Loops, Outgoing conditions, While, IfThenElse
+
+        DDI Standards: DDI Lifecycle 3.3
+      extra:
+        summary_tags: DDI, Questionnaire, Editor
+        summary_personas: Survey designers, questionnaire designers
+        annotations:
+          institution_name: Statistics Canada
+          institution_url: https://www.statcan.gc.ca
+          open_standards: DDI 3.3
+          questionnaire_entities: 'Supported: Statement, Simple question (coded, text, number,
+            date, geographic location, combined), Interviewer Instruction, Interviewee Instruction;
+            Partially: Computational Item; Not supported: Grid question (coded, text, number,
+            date, geographic location, combined)'
+          question_structure: 'Supported: Question text, Answer options, Answer codes, Item
+            text, Multilingual questionnaire support'
+          flow_logic: 'Supported: Incoming Condition, Loops, Outgoing conditions, While, IfThenElse'
+          ddi_standards: DDI Lifecycle 3.3
+      second_path:
+      - DDI Standards / DDI Lifecycle 3.3
   - name: Questionnaire Design
     items:
     - name: Colectica Designer

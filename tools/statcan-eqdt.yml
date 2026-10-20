@@ -1,0 +1,23 @@
+category: Survey & Data Collection Tools
+subcategory: Questionnaire Editors
+order: 9
+name: StatCan EQDT
+homepage_url: https://www.statcan.gc.ca
+logo: statcan.png
+description: Statistics Canada's questionnaire design tool, built on DDI Lifecycle 3.3.
+extra:
+  summary_tags: DDI, Questionnaire, Editor
+  summary_personas: Survey designers, questionnaire designers
+  annotations:
+    institution_name: Statistics Canada
+    institution_url: https://www.statcan.gc.ca
+    open_standards: DDI 3.3
+    questionnaire_entities: 'Supported: Statement, Simple question (coded, text, number, date, geographic
+      location, combined), Interviewer Instruction, Interviewee Instruction; Partially: Computational
+      Item; Not supported: Grid question (coded, text, number, date, geographic location, combined)'
+    question_structure: 'Supported: Question text, Answer options, Answer codes, Item text, Multilingual
+      questionnaire support'
+    flow_logic: 'Supported: Incoming Condition, Loops, Outgoing conditions, While, IfThenElse'
+    ddi_standards: DDI Lifecycle 3.3
+second_path:
+- DDI Standards / DDI Lifecycle 3.3

@@ -1,0 +1,23 @@
+category: Survey & Data Collection Tools
+subcategory: Questionnaire Editors
+order: 1
+name: LimeSurvey
+homepage_url: https://www.limesurvey.org
+logo: limesurvey.svg
+description: Open-source online survey tool with an integrated questionnaire editor and queXML import/export.
+repo_url: https://github.com/LimeSurvey/LimeSurvey
+license: GPL-2.0
+extra:
+  summary_tags: Questionnaire, Editor, Open Source
+  summary_integrations: 'Import: queXML; Export: queXML'
+  summary_personas: Survey designers, questionnaire designers
+  annotations:
+    institution_name: LimeSurvey GmbH
+    integrated_questionnaire_editor: 'yes'
+    structured_import: queXML
+    structured_export: queXML
+    questionnaire_entities: 'Supported: Statement, Simple question (coded, text, combined), Grid question
+      (coded), Interviewee Instruction; Not supported: Interviewer Instruction'
+    question_structure: 'Supported: Question text, Answer options, Answer codes, Item text, Intro
+      text, Multilingual questionnaire support; Not supported: Outro text'
+    ddi_standards: None (no DDI support implemented)

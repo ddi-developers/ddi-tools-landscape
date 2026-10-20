@@ -1,0 +1,26 @@
+category: Survey & Data Collection Tools
+subcategory: Questionnaire Editors
+order: 6
+name: FormAssembly
+homepage_url: https://www.formassembly.com
+logo: formassembly.svg
+description: Commercial web form and survey builder with Salesforce integration.
+license: Commercial
+extra:
+  summary_tags: Questionnaire, Editor, Proprietary
+  summary_integrations: 'Import: Excel, CSV, Salesforce; Export: CSV, Excel, XML, HTML'
+  summary_personas: Survey designers, questionnaire designers
+  annotations:
+    institution_name: FormAssembly
+    integrated_questionnaire_editor: 'yes'
+    structured_import: Excel, CSV, Salesforce
+    structured_export: CSV, Excel, XML, HTML
+    questionnaire_entities: 'Supported: Simple question (coded, text, number, date, geographic location,
+      combined), Grid question (coded, text, number, date, geographic location, combined), Interviewer
+      Instruction, Interviewee Instruction, Computational Item'
+    question_structure: 'Supported: Question text, Answer options, Answer codes, Item text, Intro
+      text, Outro text, Multilingual questionnaire support (auto translate)'
+    flow_logic: 'Supported: Incoming Condition, Loops, Outgoing conditions, While, IfThenElse'
+    conditional_text: 'Supported: Data Lookup / Preload (Salesforce); Unclear: Display of variable content
+      (no dynamic text?)'
+    ddi_standards: None (no DDI support implemented)

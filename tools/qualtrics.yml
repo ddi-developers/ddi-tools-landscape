@@ -1,0 +1,32 @@
+category: Survey & Data Collection Tools
+subcategory: Questionnaire Editors
+order: 4
+name: Qualtrics
+homepage_url: https://www.qualtrics.com
+logo: qualtrics.svg
+description: Commercial online survey and experience-management platform with an integrated questionnaire
+  editor.
+license: Commercial
+extra:
+  summary_tags: Questionnaire, Editor, Proprietary
+  summary_integrations: 'Import: yes (*.qsf); Export: yes (*.qsf, *.csv ; *.tsv ; *.xlsx ; *.sav ;
+    *.xml)'
+  summary_personas: Survey designers, questionnaire designers
+  annotations:
+    institution_name: Qualtrics
+    integrated_questionnaire_editor: 'yes'
+    structured_import: yes (*.qsf)
+    structured_export: yes (*.qsf, *.csv ; *.tsv ; *.xlsx ; *.sav ; *.xml)
+    open_standards: 'no (proprietary format: *.qsf)'
+    licence_notes: no (but an active user community https://community.qualtrics.com/)
+    questionnaire_entities: 'Supported: Simple question (coded, text, number, date, geographic location,
+      combined), Grid question (coded, text, number, date, geographic location, combined), Interviewee
+      Instruction, Computational Item; Not supported: Interviewer Instruction'
+    question_structure: 'Supported: Question text, Answer options, Answer codes, Item text, Intro
+      text, Outro text, Multilingual questionnaire support (export)'
+    flow_logic: 'Supported: Incoming Condition (IfThen), Loops, Outgoing conditions (IfThen); Partially:
+      IfThenElse; Not supported: While'
+    conditional_text: 'Supported: Alternatives, Display of variable content, Data Lookup / Preload'
+    dataset_predefinition: 'Overall: partially supported; Supported: Target Variable(s); Not supported:
+      Target Data type (explicit typing not formally defined)'
+    ddi_standards: None (no DDI support implemented)

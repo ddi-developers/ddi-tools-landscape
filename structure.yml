@@ -18,6 +18,8 @@ categories:
   - name: Data Documentation
 - name: Survey & Data Collection Tools
   subcategories:
+  - name: Questionnaire Editors
+    guide: Survey and data collection platforms with an integrated questionnaire editor. Each entry documents the supported question types, question structure, flow logic, conditional text, dataset predefinition, structured import/export formats and DDI support, based on the questionnaire tool comparison matrix.
   - name: Questionnaire Design
     guide: Visual tooling to design questionnaire specifications and generate outputs across multiple modes (web, paper, interviewer). These tools frequently integrate with repositories or generators to produce DDI, PDF, and runtime artifacts.
   - name: Questionnaire Generation

@@ -1,0 +1,30 @@
+category: Survey & Data Collection Tools
+subcategory: Questionnaire Editors
+order: 7
+name: GESIS AppKit
+homepage_url: https://www.gesis.org/en/gesis-appkit/about-appkit
+logo: gesis-appkit.svg
+description: Smartphone app and web dashboard for designing and running mobile surveys, e.g. experience
+  sampling and ambulatory assessment studies.
+license: Apache-2.0
+extra:
+  summary_tags: Questionnaire, Editor, Open Source
+  summary_personas: Survey designers, questionnaire designers
+  annotations:
+    institution_name: GESIS – Leibniz Institute for the Social Sciences
+    institution_url: https://www.gesis.org
+    integrated_questionnaire_editor: 'yes'
+    structured_import: 'no'
+    structured_export: 'no'
+    open_standards: 'no'
+    questionnaire_entities: 'Supported: Statement, Simple question (coded, text, number, date), Interviewer
+      Instruction; Planned: Simple question (geographic location); Unclear: Simple question (combined),
+      Grid question (coded, text, number, date, geographic location, combined); Not supported: Interviewee
+      Instruction, Computational Item'
+    question_structure: 'Supported: Question text, Answer options, Answer codes, Intro text (as statement),
+      Outro text (as statement), Multilingual questionnaire support (de/en); Unclear: Item text'
+    flow_logic: 'Planned: Incoming Condition, Loops, Outgoing conditions'
+    conditional_text: 'Unclear: Alternatives, Display of variable content; Not supported: Data Lookup
+      / Preload'
+    dataset_predefinition: 'Supported: Target Variable(s), Target Data type (probably)'
+    ddi_standards: None (no DDI support implemented)

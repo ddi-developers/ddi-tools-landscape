@@ -1,0 +1,24 @@
+category: Survey & Data Collection Tools
+subcategory: Questionnaire Editors
+order: 3
+name: Blaise
+homepage_url: https://blaise.com
+logo: blaise.svg
+description: Computer-assisted survey processing system for designing questionnaires and collecting
+  data across modes (CAPI, CATI, CAWI).
+license: Commercial
+extra:
+  summary_tags: Questionnaire, Editor, Proprietary
+  summary_personas: Survey designers, questionnaire designers
+  annotations:
+    institution_name: Statistics Netherlands (CBS)
+    integrated_questionnaire_editor: 'yes'
+    questionnaire_entities: 'Supported: Simple question (coded, text, number, date, combined), Grid
+      question (coded, text, number, date), Interviewer Instruction, Interviewee Instruction, Computational
+      Item; Not supported: Grid question (combined)'
+    question_structure: 'Supported: Question text, Answer options, Answer codes, Item text, Multilingual
+      questionnaire support'
+    flow_logic: 'Supported: Loops, While, IfThenElse'
+    conditional_text: 'Supported: Alternatives, Display of variable content, Data Lookup / Preload'
+    ddi_standards: DDI Lifecycle 3.0, DDI Lifecycle 3.1, DDI Lifecycle 3.2, DDI Lifecycle 3.3 (via
+      Colectica Questionnaire)

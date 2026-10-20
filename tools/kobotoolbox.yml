@@ -1,0 +1,16 @@
+category: Survey & Data Collection Tools
+subcategory: Questionnaire Editors
+order: 5
+name: KoboToolbox
+homepage_url: https://www.kobotoolbox.org
+logo: kobotoolbox.svg
+description: Open-source suite for field data collection with a form builder, mobile data entry and
+  XLSForm support.
+repo_url: https://github.com/kobotoolbox
+license: AGPL-3.0
+extra:
+  summary_tags: Questionnaire, Editor, Open Source
+  summary_personas: Survey designers, questionnaire designers
+  annotations:
+    institution_name: Kobo, Inc.
+    feature_matrix: Not yet assessed

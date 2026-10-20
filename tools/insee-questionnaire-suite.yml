@@ -1,0 +1,31 @@
+category: Survey & Data Collection Tools
+subcategory: Questionnaire Editors
+order: 8
+name: Insee Questionnaire Suite
+homepage_url: https://github.com/InseeFr
+logo: insee.png
+description: Insee's questionnaire design and generation tool chain (Pogues, Eno, Lunatic) based on
+  an internal JSON model and DDI 3.3.
+repo_url: https://github.com/InseeFr
+license: MIT
+extra:
+  summary_tags: DDI, Questionnaire, Editor, Open Source
+  summary_integrations: 'Import: Internal JSON model; Export: Internal JSON model / DDI 3.3 XML'
+  summary_personas: Survey designers, questionnaire designers
+  annotations:
+    institution_name: French National Institute of Statistics and Economic Studies (Insee)
+    integrated_questionnaire_editor: 'yes'
+    structured_import: Internal JSON model
+    structured_export: Internal JSON model / DDI 3.3 XML
+    open_standards: DDI 3.3
+    questionnaire_entities: 'Supported: Statement, Simple question (coded, text, number, date, combined),
+      Grid question (coded, text, number, date, combined), Interviewer Instruction, Interviewee Instruction;
+      Not supported: Simple question (geographic location), Grid question (geographic location)'
+    question_structure: 'Supported: Question text, Answer options, Answer codes, Item text, Intro
+      text, Outro text; Not supported: Multilingual questionnaire support'
+    flow_logic: 'Supported: Incoming Condition, Loops, Outgoing conditions'
+    conditional_text: 'Supported: Alternatives, Display of variable content'
+    dataset_predefinition: 'Unclear: Target Variable(s), Target Data type'
+    ddi_standards: DDI Lifecycle 3.3
+second_path:
+- DDI Standards / DDI Lifecycle 3.3

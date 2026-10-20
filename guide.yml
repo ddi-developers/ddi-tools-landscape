@@ -85,6 +85,19 @@ categories:
       - **[Colectica for Excel](https://www.colectica.com/software/colecticaforexcel/)**: Free tool to document spreadsheet data using the DDI standard.
 - category: Survey & Data Collection Tools
   subcategories:
+  - subcategory: Questionnaire Editors
+    content: |
+      Survey and data collection platforms with an integrated questionnaire editor. Each entry documents the supported question types, question structure, flow logic, conditional text, dataset predefinition, structured import/export formats and DDI support, based on the questionnaire tool comparison matrix.
+
+      - **[LimeSurvey](https://www.limesurvey.org)**: Open-source online survey tool with an integrated questionnaire editor and queXML import/export.
+      - **[REDCap](https://projectredcap.org)**: Secure web application for building and managing online surveys and research databases.
+      - **[Blaise](https://blaise.com)**: Computer-assisted survey processing system for designing questionnaires and collecting data across modes (CAPI, CATI, CAWI).
+      - **[Qualtrics](https://www.qualtrics.com)**: Commercial online survey and experience-management platform with an integrated questionnaire editor.
+      - **[KoboToolbox](https://www.kobotoolbox.org)**: Open-source suite for field data collection with a form builder, mobile data entry and XLSForm support.
+      - **[FormAssembly](https://www.formassembly.com)**: Commercial web form and survey builder with Salesforce integration.
+      - **[GESIS AppKit](https://www.gesis.org/en/gesis-appkit/about-appkit)**: Smartphone app and web dashboard for designing and running mobile surveys, e.g. experience sampling and ambulatory assessment studies.
+      - **[Insee Questionnaire Suite](https://github.com/InseeFr)**: Insee's questionnaire design and generation tool chain (Pogues, Eno, Lunatic) based on an internal JSON model and DDI 3.3.
+      - **[StatCan EQDT](https://www.statcan.gc.ca)**: Statistics Canada's questionnaire design tool, built on DDI Lifecycle 3.3.
   - subcategory: Questionnaire Design
     content: |
       Visual tooling to design questionnaire specifications and generate outputs across multiple modes (web, paper, interviewer). These tools frequently integrate with repositories or generators to produce DDI, PDF, and runtime artifacts.

@@ -1,0 +1,27 @@
+category: Survey & Data Collection Tools
+subcategory: Questionnaire Editors
+order: 2
+name: REDCap
+homepage_url: https://projectredcap.org
+logo: redcap.svg
+description: Secure web application for building and managing online surveys and research databases.
+license: Proprietary (free for non-profit consortium partners; see https://projectredcap.org/join/termsofuse/)
+extra:
+  summary_tags: Questionnaire, Editor, Proprietary
+  summary_integrations: 'Import: CSV; Export: CSV'
+  summary_personas: Survey designers, questionnaire designers
+  annotations:
+    institution_name: Vanderbilt University
+    integrated_questionnaire_editor: 'yes'
+    structured_import: CSV
+    structured_export: CSV
+    licence_notes: https://projectredcap.org/join/termsofuse/
+    questionnaire_entities: 'Supported: Statement, Simple question (coded, text, number, date), Grid
+      question (coded), Computational Item; Not supported: Simple question (geographic location, combined),
+      Grid question (geographic location)'
+    question_structure: 'Supported: Question text, Answer options, Answer codes, Item text (via IfThenElse),
+      Multilingual questionnaire support (translation not exported)'
+    flow_logic: 'Supported: Incoming Condition, Outgoing conditions, IfThenElse; Not supported: While'
+    conditional_text: 'Supported: Alternatives, Display of variable content, Data Lookup / Preload'
+    dataset_predefinition: 'Supported: Target Variable(s), Target Data type'
+    ddi_standards: DDI Lifecycle 3.1, DDI Lifecycle 3.2, DDI Lifecycle 3.3 (via Colectica Designer)
