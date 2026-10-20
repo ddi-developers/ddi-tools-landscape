@@ -59,14 +59,17 @@ If you have cloned this repository and want to run the landscape locally:
 
    The landscape will be available at http://localhost:8080 by default.
 
-## Editing tool data
+## Editing data
 
 Entries are maintained as one YAML file per item under `tools/`, `apis/`,
 `portals/`, `members/`, `examples/` and `profiles/`, rather than directly in
 `data.yml`. Each directory becomes a group (tab) in the landscape: Tools,
 APIs, Portals, Members, Profiles and Examples. `data.yml`, `guide.yml` and the
 `groups` block in `settings.yml` are generated and should not be edited by
-hand.
+hand. 
+
+Information about the supported field can also be found here: 
+[Landscape2 data.yml](https://github.com/cncf/landscape2/blob/main/docs/config/data.yml)
 
 - `structure.yml` lists the categories and subcategories, in display order.
   An optional `guide` field on a category or subcategory is used as its
