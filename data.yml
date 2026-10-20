@@ -1932,9 +1932,6 @@ categories:
       second_path:
       - DDI APIs / DDI Lifecycle 3.1
       - DDI APIs / DDI Lifecycle 3.2
-      - DDI Standards / DDI Lifecycle 3.1
-      - DDI Standards / DDI Lifecycle 3.2
-      - DDI Standards / DDI Lifecycle 3.3
   - name: DDI-CDI
     items: []
   - name: SDTL
