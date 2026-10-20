@@ -3,7 +3,7 @@ subcategory: Questionnaire Editors
 order: 8
 name: Insee Questionnaire Suite
 homepage_url: https://github.com/InseeFr
-logo: insee.png
+logo: insee-questionnaire-suite.svg
 description: Insee's questionnaire design and generation tool chain (Pogues, Eno, Lunatic) based on
   an internal JSON model and DDI 3.3.
 repo_url: https://github.com/InseeFr

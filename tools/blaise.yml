@@ -3,7 +3,7 @@ subcategory: Questionnaire Editors
 order: 3
 name: Blaise
 homepage_url: https://blaise.com
-logo: blaise.svg
+logo: blaise.png
 description: Computer-assisted survey processing system for designing questionnaires and collecting
   data across modes (CAPI, CATI, CAWI).
 license: Commercial

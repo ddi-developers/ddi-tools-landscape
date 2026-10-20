@@ -3,7 +3,7 @@ subcategory: Converters
 order: 1
 name: StatConverter
 homepage_url: https://roda.github.io/StatConverter/
-logo: statconverter.svg
+logo: statconverter.png
 description: Cross-platform software to convert major statistical software datasets to DDI
   Codebook.
 license: Academic Non-Commercial License

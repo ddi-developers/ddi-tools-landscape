@@ -3,7 +3,7 @@ subcategory: Questionnaire Editors
 order: 9
 name: StatCan EQDT
 homepage_url: https://www.statcan.gc.ca
-logo: statcan.png
+logo: statcan-eqdt.svg
 description: Statistics Canada's questionnaire design tool, built on DDI Lifecycle 3.3.
 extra:
   summary_tags: DDI, Questionnaire, Editor

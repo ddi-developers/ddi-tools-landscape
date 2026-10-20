@@ -101,7 +101,7 @@ categories:
           scientific_board_member: Simon Hodson (elected)
     - name: Consortium of Social Science Data Archives (CESSDA)
       homepage_url: http://cessda.net/
-      logo: cessda.png
+      logo: cessda.svg
       description: |
         Designated Member Representative: Bonnie Wolff-Boenisch
 
@@ -123,7 +123,7 @@ categories:
           executive_board_member: Katja Moilanen (elected)
     - name: German Socio-Economic Panel Study (SOEP)
       homepage_url: http://www.diw.de/deutsch/soep/29012.html
-      logo: soep.png
+      logo: soep.svg
       description: 'Designated Member Representative: Knut Wenzig'
       extra:
         annotations:
@@ -137,7 +137,7 @@ categories:
           designated_member_representative: Frédéric Minodier
     - name: Progedo
       homepage_url: https://www.progedo.fr/
-      logo: progedo.png
+      logo: progedo.svg
       description: 'Designated Member Representative: Nicolas Sauger'
       extra:
         annotations:
@@ -152,7 +152,7 @@ categories:
           designated_member_representative: Matthias Umkehrer
     - name: Sikt - Norwegian Agency for Shared Services in Education and Research
       homepage_url: https://sikt.no/en/
-      logo: sikt.png
+      logo: sikt.svg
       description: |
         Designated Member Representative: Vigdis Kvalheim
 
@@ -163,14 +163,14 @@ categories:
           scientific_board_member: Hilde Orten (elected)
     - name: Stanford University
       homepage_url: http://www.stanford.edu/
-      logo: stanford.png
+      logo: stanford.svg
       description: 'Designated Member Representative: Ron Nakao'
       extra:
         annotations:
           designated_member_representative: Ron Nakao
     - name: Swedish National Data Service (SND)
       homepage_url: http://snd.gu.se/
-      logo: snd.png
+      logo: snd.svg
       description: |
         Designated Member Representative: André Jernung
 
@@ -188,21 +188,21 @@ categories:
           designated_member_representative: Meret Hildebrandt
     - name: University of Alberta, Canada
       homepage_url: http://www.ualberta.ca/
-      logo: ualberta.png
+      logo: ualberta.svg
       description: 'Designated Member Representative: John Huck'
       extra:
         annotations:
           designated_member_representative: John Huck
     - name: University of Applied Science of the Grisons (FHGR)
       homepage_url: http://fhgr.ch/
-      logo: fhgr.png
+      logo: fhgr.svg
       description: 'Designated Member Representative: David Schiller'
       extra:
         annotations:
           designated_member_representative: David Schiller
     - name: University of Essex
       homepage_url: http://www.essex.ac.uk/
-      logo: essex.png
+      logo: essex.svg
       description: |
         Designated Member Representative: Steve McEachern
 
@@ -238,7 +238,7 @@ categories:
           scientific_board_member: Amber Leahey (elected)
     - name: University of Wisconsin Institute on Aging – MIDUS study
       homepage_url: http://midus.wisc.edu/
-      logo: midus.png
+      logo: midus.svg
       description: null
   - name: Associate Members
     items:
@@ -251,7 +251,7 @@ categories:
           member_representative: Sam Spencer
     - name: Australian Bureau of Statistics (ABS)
       homepage_url: http://www.abs.gov.au/websitedbs/D3310114.nsf/home/home?opendocument
-      logo: abs.png
+      logo: abs.svg
       description: 'Member Representative: Alistair Hamilton'
       extra:
         annotations:
@@ -297,7 +297,7 @@ categories:
           member_representative: Dan Gillman
     - name: France Cohortes/FReSH
       homepage_url: https://francecohortes.org/
-      logo: france-cohortes.png
+      logo: france-cohortes.svg
       description: 'Member Representative: Grégoire Rey'
       extra:
         annotations:
@@ -318,7 +318,7 @@ categories:
           member_representative: Mubashar Ghafoor
     - name: Instituto Superior Tecnológico Japón
       homepage_url: https://itsjapon.edu.ec/
-      logo: its-japon.png
+      logo: its-japon.svg
       description: 'Member Representative: María Cristina Aguas Ortiz'
       extra:
         annotations:
@@ -332,7 +332,7 @@ categories:
           member_representative: Francisco Felipe Soria Suárez
     - name: Making Sense
       homepage_url: https://making-sense.info/
-      logo: making-sense.png
+      logo: making-sense.svg
       description: 'Member Representative: Franck Cotton'
       extra:
         annotations:
@@ -371,28 +371,28 @@ categories:
           scientific_board_member: Noemi Betancort Cabrera (elected)
     - name: Roper Center for Public Opinion Research
       homepage_url: https://ropercenter.cornell.edu/
-      logo: roper-center.png
+      logo: roper-center.svg
       description: 'Member Representative: Jessica Riggs'
       extra:
         annotations:
           member_representative: Jessica Riggs
     - name: Statistics Canada
       homepage_url: https://www.statcan.gc.ca/eng/
-      logo: statcan.png
+      logo: statcan.svg
       description: 'Member Representative: Flavio Rizzolo'
       extra:
         annotations:
           member_representative: Flavio Rizzolo
     - name: Statistics Estonia
       homepage_url: http://www.stat.ee/en
-      logo: statistics-estonia.png
+      logo: statistics-estonia.svg
       description: 'Member Representative: Kaia Kulla'
       extra:
         annotations:
           member_representative: Kaia Kulla
     - name: Statistics New Zealand
       homepage_url: http://www.stats.govt.nz/
-      logo: stats-nz.png
+      logo: stats-nz.svg
       description: 'Member Representative: Carmen Lammerding'
       extra:
         annotations:
@@ -406,14 +406,14 @@ categories:
           member_representative: Kelly Chatain
     - name: TBA21 Group
       homepage_url: http://web.tba21.hu/
-      logo: tba21.png
+      logo: tba21.svg
       description: 'Member Representative: David Schiller'
       extra:
         annotations:
           member_representative: David Schiller
     - name: U.S. Bureau of Labor Statistics
       homepage_url: http://www.bls.gov/
-      logo: bls.png
+      logo: bls.svg
       description: null
     - name: University of Kansas, Institute for Policy and Social Research (IPSR)
       homepage_url: http://www.ipsr.ku.edu/
@@ -431,7 +431,7 @@ categories:
           member_representative: Barry Radler
     - name: World Bank, Development Data Group (DECDG)
       homepage_url: https://www.worldbank.org/en/about/unit/unit-dec/dev
-      logo: worldbank-decdg.png
+      logo: worldbank-decdg.svg
       description: 'Member Representative: Olivier Dupriez'
       extra:
         annotations:
@@ -707,7 +707,7 @@ categories:
             Designer)
     - name: Blaise
       homepage_url: https://blaise.com
-      logo: blaise.svg
+      logo: blaise.png
       description: |
         Computer-assisted survey processing system for designing questionnaires and collecting data across modes (CAPI, CATI, CAWI).
 
@@ -911,7 +911,7 @@ categories:
           ddi_standards: None (no DDI support implemented)
     - name: Insee Questionnaire Suite
       homepage_url: https://github.com/InseeFr
-      logo: insee.png
+      logo: insee-questionnaire-suite.svg
       description: |
         Insee's questionnaire design and generation tool chain (Pogues, Eno, Lunatic) based on an internal JSON model and DDI 3.3.
 
@@ -963,7 +963,7 @@ categories:
       - DDI Standards / DDI Lifecycle 3.3
     - name: StatCan EQDT
       homepage_url: https://www.statcan.gc.ca
-      logo: statcan.png
+      logo: statcan-eqdt.svg
       description: |
         Statistics Canada's questionnaire design tool, built on DDI Lifecycle 3.3.
 
@@ -1112,7 +1112,7 @@ categories:
       - DDI Standards / DDI Lifecycle 3.3
     - name: QDDT
       homepage_url: https://github.com/DASISH/qddt-client/wiki
-      logo: qddt.svg
+      logo: qddt.png
       description: |
         Interactive, dynamic web-based tool for questionnaire design and documentation.
 
@@ -1233,7 +1233,7 @@ categories:
     items:
     - name: StatConverter
       homepage_url: https://roda.github.io/StatConverter/
-      logo: statconverter.svg
+      logo: statconverter.png
       description: |
         Cross-platform software to convert major statistical software datasets to DDI Codebook.
 

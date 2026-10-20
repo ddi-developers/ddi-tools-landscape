@@ -3,7 +3,7 @@ subcategory: Associate Members
 order: 19
 name: Statistics Canada
 homepage_url: https://www.statcan.gc.ca/eng/
-logo: statcan.png
+logo: statcan.svg
 description: 
 extra:
   annotations:

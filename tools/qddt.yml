@@ -3,7 +3,7 @@ subcategory: Questionnaire Design
 order: 4
 name: QDDT
 homepage_url: https://github.com/DASISH/qddt-client/wiki
-logo: qddt.svg
+logo: qddt.png
 description: Interactive, dynamic web-based tool for questionnaire design and documentation.
 license: GPL
 extra:
